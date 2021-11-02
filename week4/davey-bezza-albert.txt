@@ -1,24 +1,25 @@
-interviewer: Davey
-interviewee: Bezza
+Interviewer: Davey
+Interviewee: Bezza
 Scribe: Albert
-q: differences between final, finalize, finally?
-final keyword we use with methods, properties, variables
+
+Q: differences between final, finalize, finally?
+A: final keyword we use with methods, properties, variables
 where we don't want a class to be inherited or a method to be overwritten or variable to be constant.
-
-
 finally comes try catch group so at the end of try catch we do finally and a block where we want common statement to be executed
-
-
 finalize is to be used by the garbage collector
+P: 1/1
 
-question: can you force garbage collection?
-no.
+Q: can you force garbage collection?
+A: no.
+P: 1/1
 
-q: how would you describe aws?
-web services which provides a computing service, all kinds of services like storage
+Q: how would you describe aws?
+A: web services which provides a computing service, all kinds of services like storage
+P: 1/1
 
-q: what is one advantage of aws compared to hosting something yourself?
-cost since you can cutout a lot of overhead
+Q: what is one advantage of aws compared to hosting something yourself?
+A: cost since you can cutout a lot of overhead
+P: 1/1
 
 Interviewer: Bezza
 Interviewee: Albert
@@ -45,5 +46,20 @@ For the throws it can be uses in a class to instanciate an exception.
 throwable is the parent class to exceptions in the exception hierarcy.
 
  
+Interviewer: Albert Lee
+Interviewee: Davey Agrinsoni
+Scribe: Bezza Ayalew
+
+Q.1. What is Java?
+Answer: Java is object oriented it has been around for a long time with many documents wora JVM JDK JRE
+Points: 1/1
+
+Q.2. : What are the primitive datatypes?
+Answer: Byte, Boolean, Long, Short, Double, … blanking on  Char, Integers float
+Points: 1/1
+
+Q.3. Explain the following AWS service EBS
+Answer: I have not worked on AWS I am not sure I would reference the documentation 
+Points: .75
 
 
