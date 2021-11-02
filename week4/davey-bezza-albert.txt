@@ -45,5 +45,20 @@ For the throws it can be uses in a class to instanciate an exception.
 throwable is the parent class to exceptions in the exception hierarcy.
 
  
+Interviewer: Albert Lee
+Interviewee: Davey Agrinsoni
+Scribe: Bezza Ayalew
+
+Q.1. What is Java?
+Answer: Java is object oriented it has been around for a long time with many documents wora JVM JDK JRE
+Points: 1/1
+
+Q.2. : What are the primitive datatypes?
+Answer: Byte, Boolean, Long, Short, Double, … blanking on  Char, Integers float
+Points: 1/1
+
+Q.3. Explain the following AWS service EBS
+Answer: I have not worked on AWS I am not sure I would reference the documentation 
+Points: .75
 
 
