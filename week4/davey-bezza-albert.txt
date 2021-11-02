@@ -1,6 +1,7 @@
 Interviewer: Davey
 Interviewee: Bezza
 Scribe: Albert
+
 Q: differences between final, finalize, finally?
 A: final keyword we use with methods, properties, variables
 where we don't want a class to be inherited or a method to be overwritten or variable to be constant.
