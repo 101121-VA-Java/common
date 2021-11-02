@@ -60,3 +60,27 @@ A: It is a reference variable, not considered a primitive variable/data type
 
 Rating - 8/10
 ______________________________________________________________________________________
+
+Dean
+
+Q1: What is differnce method overloading, overriding?
+over loading, explains it.  over riding, different implementation of same name
+
+Q2; abstract class vs interface?  some hesitation to find words.
+good answer
+
+Q3 extends vs implements?
+pull in framwork from abstract class - extends
+interface - no mention of contract
+
+Q4  What is maven?  framwork that helps with dependencies and PM
+
+Q5 what are collections?  set of relatable data, comes in deifferent forms
+i.e. set , list, queue
+
+
+Q6 array vs arraylist?  array for primitive vars.  arrayList for objects
+
+Q7 lifecycle of thread - ok answer.  we were all somewhat unsure
+
+Q8 deadlock.  two threads competing for resource.  one requires to execute
