@@ -1,0 +1,28 @@
+Alex 
+what is aws
+	long pauses - 
+		Services: EC2, EBS, *RDS.
+Why would someone want to use AWS?
+	physical space saving... *maybe incluse cost saving for hardware and software lisences* 
+What is String builder and string buffer
+	"ways to create strings" "makes strings mutable" "Sting buffer allows for multi threading" 
+	
+What is encasulation
+	Uses access modifers to determine what is capable to be accessed through a appiliactions, Private is only accessable in class for example
+Breifly go over other pillars of oop
+	polymophism, abstraction and .... inheritance
+Pick one and elaborate
+	inheritance adopts attributes from parent classes. 
+what are the primitave variable types
+	"I got this"
+	there is byte int short long, float char, boolian, ...double *got a hint* bitter black coffee sure is for long days - boolean byte char short int float long double.
+general flow on git, how does it work
+	first i would clone
+	make some edits
+	git add . - stages changes to be updated
+	git commit -m "message" 
+	git push - sends up those changes
+explain java
+	java is a OOP programing language, yeah its a multi purpose programming language 
+	
+Rating - .83/1
