@@ -1,5 +1,6 @@
-interviewer: davey
-interviewee: bezza
+interviewer: Davey
+interviewee: Bezza
+Scribe: Albert
 q: differences between final, finalize, finally?
 final keyword we use with methods, properties, variables
 where we don't want a class to be inherited or a method to be overwritten or variable to be constant.
@@ -17,4 +18,32 @@ q: how would you describe aws?
 web services which provides a computing service, all kinds of services like storage
 
 q: what is one advantage of aws compared to hosting something yourself?
-cost
+cost since you can cutout a lot of overhead
+
+Interviewer: Bezza
+Interviewee: Albert
+Scribe: Davey
+
+Q:In git what is a merge comflict?
+A: A git merge conflict is when .... your local changes that you are trying to commit are different than the repository you are trying to commit to. For example if I were to make changes to the documents Davey is working on
+and push them before he is done it will cause a git merge conflict when he pushes his changes.
+
+Q: Does it matter if both people were working on the same branch or not( for the conlfict)?
+A: I would have to look up the git documentation to get more information on that one. 
+
+Q: How would you resolve these conflicts as they come up?
+Most IDEs have a merge conflict resolution for example I know in vs code you could have headers and footers where conflicts show up and you can deal with them before pushing onto github. You can also deal with them on
+the github website itself which is useful if you don't have a local ide set up. and those are the only real two methods I know of.
+
+Q: Can you explain throws throwable and throws
+
+A: I can start with throwable. Basically.. a throwable execption is not a error in that it is not caught at compile time. Sorry can you repeat the question one more time... So the keyword throws is usually attactched
+to a method signature which indicates that this method can throw an exception
+
+For the throws it can be uses in a class to instanciate an exception.
+
+throwable is the parent class to exceptions in the exception hierarcy.
+
+ 
+
+
