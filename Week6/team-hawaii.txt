@@ -1,0 +1,22 @@
+11/15/2021 Monday
+Check ins
+Albert
+Yesterday: Studied for 1 on 1 + QC, set up maven project for project 1
+Today: Set up db schema and dao layer for project 1
+Blockers: None
+
+Bruno:
+Yesterday: Finished Project 0, Studied for QC and One on One.
+Started Project 1 - Set the log4j2, - Created package structure.
+Today: Did the assessment for javascript, html, css, ajax content. solved JavaScript optional exercises. Review the material of last week. 
+Blockers: None
+
+Kendrick
+Yesterday: I studied for QC. Tried to work on creating the html for the front end.
+Today: Finish creating the classes in Java and finish the css for the front end. Practice Js in codecademy. Study for QC.
+Blockers: I had my son all weekend.
+
+Bezza
+Yesterday: I studied for QC. Created the database and general structure of my project1.
+Today: I did more review of last week’s notes for the one-on-one and for the QC. Took the one-on-one and the QC quiz. I will be taking part in the group mock-interview. Later in the day I will be working on the front-end part of my project, particularly on the login page.
+Blockers: I am not feeling very well since last week and I am not accomplishing as much as I would like to.
