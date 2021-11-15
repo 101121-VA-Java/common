@@ -1,0 +1,55 @@
+Interviewer: Brayden
+Interviewee: Jeremy
+Scribe: David
+Key: Q= Question, A = Answer
+
+Q: Which way has highest priority when styles cascade: inline, internal, and external stylesheets. Which is best practice? Why?
+A: Inline interal, and external. inline is within HTML element. internal is within the document itself with the opening and closing style tags. External you import a css file.
+
+Q: Explain how the guard and default operators work
+A: Not sure if this was covered.
+
+Q: What tags would you use to create a table?
+A: in HTML, you use opening and closing tag. td is for column tr is for row. you organize according to how you want your table to look like. tr's go into td's.
+
+Interviewer: 
+Interviewee: 
+Scribe: 
+Key: Q= Question, A = Answer
+
+Q:
+A:
+
+Q:
+A:
+
+Q:
+A:
+
+Interviewer: 
+Interviewee: 
+Scribe: 
+Key: Q= Question, A = Answer.
+
+Q:
+A:
+
+Q:
+A:
+
+Q:
+A:
+
+Interviewer: 
+Interviewee: 
+Scribe: 
+Key: Q= Question, A = Answer
+
+Q:
+A:
+
+Q:
+A:
+
+Q:
+A:
