@@ -40,30 +40,33 @@ A:There are 3 types n123. N1 ..uhh... I know n2n3 one of them either has transat
 tables to the simplist forms they can be.
   S:Had the basics of the forms but wasn't sure on which form was what.
 
-Interviewer: 
-Interviewee: 
-Scribe: 
+Interviewer: David
+Interviewee: Brayden
+Scribe: Jeremy
 Key: Q= Question, A = Answer
 
-Q:
-A:
+Q: What is the syntax for a comment in HTML?
+A: The syntax is the same of most languages - slash slash for a single line comment, slash star star slash for multi line comment...
 
-Q:
-A:
+Q: What is JSON? Is it different from JS objects?
+A: JSON is the way that data gets transferred from the front end to the backend. JSON is the language that JS uses to read information. Conversion when you are trying to convert
+data from one type to a different type. 
 
-Q:
-A:
+Q: What is the difference between == and ===? Which one allows for type coercion?
+A: == compares non literal values, for example if you have the integer 5 vs the string 5, they would come out equal. Triple equals compares literal values so it compares the 
+value and type. So in that case it would be false. 
 
 Interviewer: 
-Interviewee: 
-Scribe: 
+Interviewee: Davey
+Scribe: Jeremy 
 Key: Q= Question, A = Answer
 
-Q:
-A:
+Q: What are all the datatypes in JS?
+A: The data in JS primitives: boolean, number, strings, undefined - objects: arrays - can take in multiple values at once. Symbol, null. Undefined is a variable that is declared 
+but undefined. Object is the only non primitive. 
 
-Q:
-A:
+Q: What are the two keywords to declare variables in the block scope? What is the difference between them?
+A: let and const so let mean that a variable cannot be redeclared but can be reassigned. Const mean not redeclared and not redefined. Similar to final in Java. 
 
-Q:
-A:
+Q: What is a template literal, how is it declared, and how do you include JS elements within it? 
+A: Declared via the backticks , better than concatenation, ${} to include JS elements
