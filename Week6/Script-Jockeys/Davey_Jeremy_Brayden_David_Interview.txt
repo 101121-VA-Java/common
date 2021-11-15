@@ -56,7 +56,7 @@ Q: What is the difference between == and ===? Which one allows for type coercion
 A: == compares non literal values, for example if you have the integer 5 vs the string 5, they would come out equal. Triple equals compares literal values so it compares the 
 value and type. So in that case it would be false. 
 
-Interviewer: 
+Interviewer: Brayden, David, Jeremy
 Interviewee: Davey
 Scribe: Jeremy 
 Key: Q= Question, A = Answer
@@ -69,4 +69,5 @@ Q: What are the two keywords to declare variables in the block scope? What is th
 A: let and const so let mean that a variable cannot be redeclared but can be reassigned. Const mean not redeclared and not redefined. Similar to final in Java. 
 
 Q: What is a template literal, how is it declared, and how do you include JS elements within it? 
-A: Declared via the backticks , better than concatenation, ${} to include JS elements
+A: ...Silence.... I'm not very sure  what template literals are sorry. 
+Answer should have been: Declared via the backticks , better than concatenation, ${} to include JS elements
