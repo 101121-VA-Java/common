@@ -12,24 +12,33 @@ A: Not sure if this was covered.
 Q: What tags would you use to create a table?
 A: in HTML, you use opening and closing tag. td is for column tr is for row. you organize according to how you want your table to look like. tr's go into td's.
 
+Interviewer: Jeremy
+Interviewee: David
+Scribe: Davey
+Key: Q= Question, A = Answer, S = Scribe notes
+
+Q:Within Js what is event propagation and what are the two types.
+
+A:Event propagation is the propagation of events. However what I think you are looking for is looking for an event listener. Which is when you define an event that
+looks for an event to happen and then executes a fuction. For example we can set up an event for a button which could be on click which looks for  the button to a clicked which once clicked would run a fuction we have written in JS which will print "Hooray!"
+
+-When talking about bubbling and caputing: One goes from top to bottom and the other goes from bottom to top. For an example if you were to have a burger and talk about how you8 want your meat cooked raw -> rare > medium rare etc, etc. If you did bubbling it would go in to out so medium rare > rare > raw and capturing would be out to in raw > rare > medium rare.
+  S: Jeremy was looking for Bubbling / capturing but David went into setting up Event Listening.
+
+Q:Name within JS name a few different types of functions and describe them
+
+A:The one we are most familar with is console.log which prints the specified information to the console. ....(Blanks for a bit when told Console.log() was more so a method).. let's see some other functions . . . . (blank)... I know of callback functions are if you didn't implement a function already and you want to implement the function later but another function needs it you can pass it in but define it later.
+  S:I got a little lost following some of these answers. David seems to not yet fully understand the different functions in JS and how they function / their syntax.
+
+Q:What is normalization and what are the three types?
+
+A:There are 3 types n123. N1 ..uhh... I know n2n3 one of them either has transatives dependancies and I think n3 has no dependancies. Normalization is reducing your tables to the simplist forms they can be.
+  S:Had the basics of the forms but wasn't sure on which form was what.
+
 Interviewer: 
 Interviewee: 
 Scribe: 
 Key: Q= Question, A = Answer
-
-Q:
-A:
-
-Q:
-A:
-
-Q:
-A:
-
-Interviewer: 
-Interviewee: 
-Scribe: 
-Key: Q= Question, A = Answer.
 
 Q:
 A:
