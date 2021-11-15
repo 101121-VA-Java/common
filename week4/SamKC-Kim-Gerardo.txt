@@ -1,0 +1,42 @@
+Interviewer:  Sam KC
+Interviewee: Gerardo Barnett
+Scribe: Kim K
+What is multithreading? 1
+It is background processes that are checking to let you know if anything is going wrong.
+What is the differance between an object and a class? 1
+An object is an instance of a class created with the new keyword.  A class is a blueprint from wich the object is created.
+what is abstration? .9
+Abstraction is hiding complex implementation from the user.
+__________________________________________________________________________________
+Interviewer: Kim
+Interviewee: Sam
+Scripe:  Gerardo Barnett
+1. Why java is a good language?
+-Is an OOP Languaje, it is OS independent and it can run anywhere. 1 point
+2. What are the 8 primitive types?   0.75 point
+-Int, double, long, float, boolean
+-Missed char, short and byte
+3. What are the three uses o super?    1 point
+-Invoke a parent's class constructor
+-Invoke a parent's class method
+-Invoke parent's class variables
+__________________________________________________________________________________
+Interviewer: Gerardo Barnett
+Interviewee: Kim K
+Scribe: Sam-KC
+Question # 1 : What can you tell me about encapsulation?
+Answer: encapsulation is where you set the objects to private or protected so that 
+you cant use them outside of their class or subclasses so you have to use getters and setters to access them.  1/1
+
+Question # 2 : How do you create an Object?
+Answers: in java you create a new object by using the new keyword, ex if its a string you
+initilize it with String word = new String.  1/1
+
+Question # 3: What is a method?
+Answer: A method is a set of instructions on how to do something. 
+Interviewer: Can you give me an example of that?
+Answer: for example I want to set up a method that is going to print hello world
+Im going to type ("hello world") and System.out.println(("hello world")) it is set of instructions.
+Single responsibility principle, you should only do one thing with each method.  .95/1
+Comment: I would also include youcan pass data, known as parameters, into a method.
+

@@ -1,0 +1,86 @@
+Alex 
+what is aws
+	long pauses - 
+		Services: EC2, EBS, *RDS.
+Why would someone want to use AWS?
+	physical space saving... *maybe incluse cost saving for hardware and software lisences* 
+What is String builder and string buffer
+	"ways to create strings" "makes strings mutable" "Sting buffer allows for multi threading" 
+	
+What is encasulation
+	Uses access modifers to determine what is capable to be accessed through a appiliactions, Private is only accessable in class for example
+Breifly go over other pillars of oop
+	polymophism, abstraction and .... inheritance
+Pick one and elaborate
+	inheritance adopts attributes from parent classes. 
+what are the primitave variable types
+	"I got this"
+	there is byte int short long, float char, boolian, ...double *got a hint* bitter black coffee sure is for long days - boolean byte char short int float long double.
+general flow on git, how does it work
+	first i would clone
+	make some edits
+	git add . - stages changes to be updated
+	git commit -m "message" 
+	git push - sends up those changes
+explain java
+	java is a OOP programing language, yeah its a multi purpose programming language 
+	
+Rating - .83/1
+______________________________________________________________________________________
+
+Peter
+
+Q1: What is SQL?
+A: stands for structured query language.  Allows for manipulation of data in a database.  
+
+Q2: What is DBeaver?
+A: A framework/intermediary that allows us to work with the database and manipulate it using SQL commands
+
+Q3: what would you find in a database?
+A: Records, which consist of columns and rows, columns refering to a variable name in a class, and rows are each individual record of that class
+
+Q4: How would I find a particular record?
+A: The record corresponds to a class from a Java program. 
+select * from "column" * from "table name"
+
+Q5: How would I make a table in SQL?
+A: create table "name" (data types entered here, not called data types in SQL)
+
+Q6: What is an object in Java?
+It is a singular thing in Java.  A class contains the variables and methods that pertain to an object in Java.
+
+Q7: Explain an example of a loop
+A: for, while, do while (executes at least once) are all different types of loops. not sure if switch case statement is a loop.
+
+Q8: What data types are supported in a switch statement?
+A: Integers, characters, strings.
+
+Q9: What data type is a string?
+A: It is a reference variable, not considered a primitive variable/data type
+
+Rating - 8/10
+______________________________________________________________________________________
+
+Dean
+
+Q1: What is differnce method overloading, overriding?
+over loading, explains it.  over riding, different implementation of same name
+
+Q2; abstract class vs interface?  some hesitation to find words.
+good answer
+
+Q3 extends vs implements?
+pull in framwork from abstract class - extends
+interface - no mention of contract
+
+Q4  What is maven?  framwork that helps with dependencies and PM
+
+Q5 what are collections?  set of relatable data, comes in deifferent forms
+i.e. set , list, queue
+
+
+Q6 array vs arraylist?  array for primitive vars.  arrayList for objects
+
+Q7 lifecycle of thread - ok answer.  we were all somewhat unsure
+
+Q8 deadlock.  two threads competing for resource.  one requires to execute

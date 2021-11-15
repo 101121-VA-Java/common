@@ -1,0 +1,62 @@
+ Interviewer: Andrew 
+Interviewee: Andre
+Scrib: Patience
+
+What is abstraction?    .75/1
+Takes a moment….answer general ….ask if more detail is needed...one of the four pillars. used for hiding complex ideas.
+
+What is encapsulation    1/1
+Takes a moment...answers with general example and specific example with code structure
+Private, access...
+one of the pillars, taking code and bundling it, used a high-level example, used a specific example. Setting access modifiers.
+protected private default. setting code apart from other code, don't want to be modified.
+very detailed response.
+
+What is polymorphism    1/1
+Answers with two types of polymorphism, and specific examples of overridden 
+- one of the pillars
+code having multiple forms, used examples, method overloading, method overriding,parent class, child class. used examples, parent method is represented in child class, very detailed response.
+
+-------------------------------
+
+Scrib: Andrew
+Interviewer: Andre
+Interviewee: Patience
+
+Q. Difference between an object and a class?  (1/1)
+A. object is a blueprint from a class. quick answer. object
+
+Q. Can you explain access modifiers to me? List them from least to most secure. (1/1)
+physically the state of your fields, for instance...
+examples, high level.
+private, public, protected. Different levels of access. Packages have different access.
+
+4. What can you tell me about threads?  (.9/1)
+A. when you start a thread, the compiler goes to the main method but you can have threads going at the same time. ArrayList depending. Some allow multiple threads to go through
+Described importance. Depends on how many threads you have open in background.
+
+------------------------
+
+
+Scrib: Andre
+Interviewer: Patience
+Interviewee: Andrew
+
+ Question 1: What is the difference between the comparable and comparator interfaces
+	-Not confident in answer, no answer (0.2/1)
+
+ Question 2: What is Log4J?
+
+	- Visual pondering, haven't studied enough, no answer. (0.2/1)
+
+ Question 3: What is a commit?
+
+	-Slow, takes time, not too slow. Pauses. Words become stagnated, Taking time to pause            could help.(0.9/1).
+
+Question 4: Where are primitive data-types stored?
+
+	-Clear explanation, quickly answered, also mentioning the heap and the connections between the two . (1/1)
+
+Question 5: What are packages and imports?
+
+	-Vague in terms of examples?, words stagnant. Maybe take time to pause. (0.8/1).
