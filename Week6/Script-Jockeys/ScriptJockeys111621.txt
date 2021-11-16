@@ -1,0 +1,39 @@
+Group name: Script Jockeys
+Date: 11/16/2021
+Group Composition: Jeremy Steinhafel, David Wysocki, Davey Agrinsoni, Brayden Whitlock
+
+
+
+
+Jeremy
+- What did I do yesterday
+Set up database for P1
+- What am I working on today				
+Basic java structure of program for P1				
+- Do I have any blockers				
+Hibernate is the blocker for today.
+
+Davey
+- What did I do yesterday
+Implemented needed constructors/models for P1. Basic Dao research.(stubbing them out)
+- What am I working on today				
+Implement database functions such as add. 					
+- Do I have any blockers				
+Want to learn more about Javalin
+
+
+David
+- What did I do yesterday
+
+- What am I working on today				
+					
+- Do I have any blockers				
+
+
+Brayden 
+- What did I do yesterday
+Fleshed out models needed in Java Program
+- What am I working on today				
+Plan out different webpages that Javalin needs to use. Basic creation of needed webpages.				
+- Do I have any blockers				
+Not at this time.
