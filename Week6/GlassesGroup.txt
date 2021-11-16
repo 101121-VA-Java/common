@@ -27,3 +27,25 @@ instead where it reminds me to save. I apologize.
 
 What I do know is that everyone was professional and it was helpful to see areas that may be lacking. Everyone was able to chime in
 to assist the interviewee on keywords that may have been missed. 
+
+
+
+
+Don't worry, it's not long because I didn't really get to add Yesterday's!
+Tuesday 11/16
+Peter:
+Yesterday: Studied for QC, worked on P1 creating database in dbeaver and making some corrections to user postgres
+Today: continue work on dbeaver, change postgres based on what we learned this morning
+
+Gerardo:
+Yesterday: Studied for QC
+Today: Plan on working on P1 and set up structure. Start dbeaver database.
+
+Tricia:
+Yesterday: Finished database and started working on interfaces in P1. Looked into setting up tests to try TDD
+Today: Continue looking into tests
+
+Hannah:
+Yesterday: Studied for QC and watched videos on HTTP and AJAX, set up database, started writing methods in my services layer, started testing
+Today: Continue my work on testing and developing methods. Want to understand and implement mockito.
+
