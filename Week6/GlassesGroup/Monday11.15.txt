@@ -1,0 +1,51 @@
+Peter, Tricia, Hannah, Gerardo
+
+Catchup-
+Peter:
+Yesterday: started work on database for P1, studied for QC
+Today: Expand work on P1, study for QC
+
+Gerardo:
+Yesterday: Practiced with JavaScript and Pokemon lesson
+Today: Study for QC
+
+Tricia:
+Yesterday: Friday looked back at Kevin's notes and tried to really undertand what was going on with JavaScript, HTML, CSS, and HTTP with 
+the pokemon activity
+Today: Start working on P1 and study for QC
+
+Hannah:
+Yesterday: Began framework for P1, answered questions on the Week5 review for QC
+Today: Continue work on P1, finish HackerRank, Study for QC
+**Having issues with my gitHub when I try to push. I lost my content for P1 because branches were behind one another and 
+could not pull. Thought I fixed it. 
+
+We did a mock interview, I wish I had better notes for that because I listed the question and response for every person. 
+Some questions were on core Java(pillars of OOP, Java defninition, constructors), others were from last week's lessons(HTML, CSS, DOM).
+I lost all the notes when I pushed the blank document without saving and closed the notepad. I am used to nano-ing on gitbash 
+instead where it reminds me to save. I apologize. 
+
+What I do know is that everyone was professional and it was helpful to see areas that may be lacking. Everyone was able to chime in
+to assist the interviewee on keywords that may have been missed. 
+
+
+
+
+Don't worry, it's not long because I didn't really get to add Yesterday's!
+Tuesday 11/16
+Peter:
+Yesterday: Studied for QC, worked on P1 creating database in dbeaver and making some corrections to user postgres
+Today: continue work on dbeaver, change postgres based on what we learned this morning
+
+Gerardo:
+Yesterday: Studied for QC
+Today: Plan on working on P1 and set up structure. Start dbeaver database.
+
+Tricia:
+Yesterday: Finished database and started working on interfaces in P1. Looked into setting up tests to try TDD
+Today: Continue looking into tests
+
+Hannah:
+Yesterday: Studied for QC and watched videos on HTTP and AJAX, set up database, started writing methods in my services layer, started testing
+Today: Continue my work on testing and developing methods. Want to understand and implement mockito.
+
