@@ -1,0 +1,25 @@
+Dean
+Yesterday: Added dependacies for unit testing, logging, and Javalin. working on getting it to take a login
+Today: Adding Admin user and test user to the database.
+Blockers: Working out how to handle a login on the front end using javalin.
+
+Alex
+Yesterday: Felt sick in the afternoon, did not add anything to the project. Wrote down some notes for what I need/want for my project  
+Today: Added frontend file structure, added dependencies for Javalin, working on finishing up the skeleton structure of the backend before working on controller functionality
+Blockers: working with Javalin to handle login, setting up the connection between frontend and backend
+
+Patience
+What did I do yesterday
+I added a html, css, and a little bit of js for the manager, and worked on Postgres structure a bit. The home page for the manager took more time than expected.
+What am I working on today
+I am going to create html, css, js for employee, and start adding the controllers and driver to application
+Do I have any blockers
+	-no blockers
+
+Sam
+What I did yesterday:
+    - Worked on service and dao layers. Created all the tables needed for database. 
+What I am working on today:
+    - Implementing routes using javalin & continuing with TTD for service and dao layers.
+Do i have any blockers
+    - I currently do not have any blockers.
