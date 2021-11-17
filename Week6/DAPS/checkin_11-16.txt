@@ -1,0 +1,28 @@
+Dean
+Yesterday: Updated the main front end pages to be more readable based on Patience’s suggestions. Created object models for “users” “admins” and “requests”
+Today: start getting the frontend Javalin handler implemented
+Blockers: need to study up on Javalin to fully grasp how its going to interact with the fronend.
+
+Alex
+What I did yesterday:
+    Started my project backend by setting up the basic file structure as well as some basic code for dao, services, and models.
+What I am working on today:
+    Building out the backend a bit more and then starting on the frontend.
+Blockers: none
+
+
+Patience
+What did I do yesterday
+    Yesterday I worked on the front end a bit, HTML and CSS with bootstrap, then I went on to community building up on the back end by creating a Dao and service layer for reimbursement.
+What am I working on today
+    I am going to work on giving the rest of my models and Dao, service, and Postgres layer and hopefully work on adding other HTML pages after
+Do I have any blockers
+    none
+
+Sam
+What I did yesterday:
+    - Worked on creating the database tables & started DAO implementation yesterday.
+What I am working on today:
+    - I will be continuing with TTD for service and dao layers.
+Do i have any blockers
+    - I currently do not have any blockers.
