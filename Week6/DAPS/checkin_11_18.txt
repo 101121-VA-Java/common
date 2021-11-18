@@ -1,13 +1,35 @@
 Dean
+Yesterday: added database connection and synchronization
+Today: Building tokens and login functionality system.
+Blockers: not sure if i have any anymore.
 
 
 Alex
+Yesterday
+    -Wrote most of my backend functionality, still need to incorporate database connection and write my driver method w connection to javalin
+Today
+    -Start making the pathing layout of the frontend
+Blockers
+    -none that I can think of at the moment, maybe configuring Javalin.
 
 
 Patience
+What did I do yesterday
+    -I added html, css, js for employee, add and updated driver, and did a login test for employee service
+What am I working on today
+Using postman and making sure login/authentication functionality works for users
+    -If i have time left, I would work on the controller layer a bit more
+Do I have any blockers
+	-no blockers
 
 
 Sam
+What I did yesterday:
+    - Implementing routes using javalin & TTD for service and dao layers.
+What I am working on today:
+    - Define my URIs following RESTful guidelines. continue working on service and dao layers.
+Do i have any blockers
+    - I currently do not have any blockers.
 
 
 
