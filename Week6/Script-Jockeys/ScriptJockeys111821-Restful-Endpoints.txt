@@ -1,0 +1,59 @@
+Group name: Script Jockeys
+Date: 11/18/2021
+Group Composition: Jeremy Steinhafel, David Wysocki, Davey Agrinsoni, Brayden Whitlock
+
+
+
+
+Jeremy
+- What did I do yesterday
+Created models/implemented some Hibernate/created Daos	
+- What am I working on today				
+Either finishing Hibernate or starting front end work.		
+- Do I have any blockers				
+No current blockers.
+
+Davey
+- What did I do yesterday
+More research on Javalin and basic implementation of getEmployees and also getbyId.
+- What am I working on today				
+	Add addemployee function			
+- Do I have any blockers				
+Figuring out reimbursements.
+
+
+David
+- What did I do yesterday
+Researched Hibernate
+- What am I working on today				
+Practicing Hibernate to understand better					
+- Do I have any blockers				
+No current blockers at this time.
+
+Brayden 
+- What did I do yesterday
+Webpages work correctly and can look up users by ID number.
+- What am I working on today				
+Figure out how to find user by username and set up auth.				
+- Do I have any blockers				
+How to add users from the url/setting up an add user. 
+
+
+RESTful Endpoints
+
+http://localhost:8080/users     -Gets a list of all the users.
+http://localhost:8080/users/{id}  -Gets a user by ID
+http://localhost:8080/users/{username} - Gets a user by Username
+http://localhost:8080/users/{email} -Gets a user by Email
+http://localhost:8080/users/reimbursements - Gets all reimbursements
+http://localhost:8080/users/{id}/reimbursements - Gets all reimbursements of a user by a specific user id.
+http://localhost:8080/users/reimbursements/{reimbursement-id} -Gets a reimbursement by id
+http://localhost:8080/users/reimbursements/{reimbursement-status} - Gets all reimbursements of all users by specific reimbursement status
+http://localhost:8080/users/reimbursements/{reimbursement-type} - Gets all reimbursements of all users by specific type
+http://localhost:8080/users/reimbursements/{reimbursement-resolver} - Gets all reimbursements which a specific MANAGER has resolved.
+http://localhost:8080/users/manager - Gets all users who are MANAGERS
+http://localhost:8080/users/employee - Gets all users who are EMPLOYEES
+
+
+
+
