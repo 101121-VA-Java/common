@@ -21,30 +21,39 @@
 
     Blockers: No obstacles.
 
-- /reimbursements
+/reimbursements
+
 	GET - return all reimbursements
 	POST  - 
-- JSON representation of reimbursement
+        JSON representation of reimbursement
 			- field with employee-id
 	/{id}/manager
-PUT (Update)
-- update a pending reimbursement (must be a manager)
 
-- /employees
+    PUT (Update)
+
+        update a pending reimbursement (must be a manager)
+
+/employees
+
 	GET - return all employees
-	 - /employees?manager-id=[value]
+
+	 /?manager-id=[value]
+
 		GET - return all employees with a specific manager (based on id)
-	 - /employees?username=[value]
+
+	 /?username=[value]
+
 		GET - return all employees with a specific username (in this case, just one)
-	
-/{id}
-	GET - returning employee with id specified
-	PUT - update employee with that id
+
+    /{id}
+	    GET - returning employee with id specified
+	    PUT - update employee with that id
 			- FTAL(for this application's logic): this is just for basic information
 				- username, password, name
 		
 
-- /auth
+/auth
+
 	POST - login 
 		- send username/password
 		- retrieve Authorization Header if login was successful
