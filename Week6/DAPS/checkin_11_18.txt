@@ -1,0 +1,31 @@
+Dean
+
+
+Alex
+
+
+Patience
+
+
+Sam
+
+
+
+p1 endpoints: 
+    /register - POST - page to create employee/admin/manager and add to database 
+    /login - POST - requires auth before logging in to confirm the user is signing in with an existing account, issues a token upon logging in indicating what user is using the app. Then directed to menu page
+    / - GET - landing page after login.  Links to show pending reimbursements or to create a new reimbursement request, option to logout
+    /employee/{id} - GET - shows pending reimbursement requests and allows employee to create new request
+    /employee/{id}/reimbursements - GET - shows all completed reimbursements of that employee
+    /employee/{id}/reimbursements/pending - GET - shows all pending reimbursements of that employee
+    /employee/{id}/account - GET - allows employee to see employee information
+    /employee/{id}/account - PUT - allows employee to edit and update user information
+    /manager/reimbursements - GET - shows pending requests that need confirmation/rejection, show all requests from a single employee
+    /manager/reimbursements/{id} - PUT - allows manager to accept or deny reimbursement requests
+    /manager/reimbursements/employee/{id} - GET - manager can view all pending requests from a single employee
+    /manager/reimbursements/resolved - GET - retrieve all resolved requests, and which manager resolved it
+    /manager/employees - GET - view all employees
+    /reimbursements - POST - add reimbursement request to reimbursements
+    /reimbursements/{id} - GET - show a reimbursement request
+    /employees/reimbursements/new-request - POST - shows form for creating a new request, POSTs the new request
+    
