@@ -1,7 +1,13 @@
 Dean
 
+
 Alex
+Project so far: most of the backend is set up, need to configure JDBC and Driver since I was expecting us to use Hibernate
+    -still need to write/refactor service layers and repositories to match each other/models
+    -frontend skeleton is set up, need to write html and styling before writing JS.
 
 Patience
 
+
 Sam
+
