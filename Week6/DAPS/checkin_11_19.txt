@@ -9,7 +9,8 @@ Project so far: most of the backend is set up, need to configure JDBC and Driver
     -frontend skeleton is set up, need to write html and styling before writing JS.
 
 Patience
-
+    Have html and css mostly done, need to start working on funtionality with JS. 
+    Have most file for each layer and code for some funtinality such as adding an employee and getting all employees, was able to use post to login but having trouble with get         method.
 
 Sam
 
