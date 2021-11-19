@@ -1,0 +1,65 @@
+Thursday 11.18 
+
+Standup-
+Tricia:
+Yesterday: Got mockito to work and tests work! Worked on basic html and login to connect to backend.
+Today: Continue work on html and set up Javalin.
+Blockers: None!
+
+
+Peter:
+Yesterday: Continued work on backend and reimbursements with Postgres
+Today: Start working on Services layer in the backend. Write more functionality.
+Blockers: None!
+
+
+Gerardo:
+Yesterday: Continued work on backend and database.
+Today: Continue work on backend and start testing.
+Blockers: None!
+
+
+Hannah:
+Yesterday: Set up data in database, wrote more methods, connected to html and javascript
+Today: Continue work on all layers and writing more methods
+Blockers: I still do not fully understand the goals or necessities of testing
+
+
+
+Restful naming conventions for P1-
+/users 
+	GET => return all users, A Manager can view all Employees
+/users/{id}
+	GET => An Employee can view their information
+	PUT => An employee can update their information
+		FTAL: update name, password, email (we discussed letting them update username, but usernames are often assigned to emps)
+
+/auth
+	POST => send username and password & retrieve auth header if login success: An Employee can login, A Manager can login
+/auth/logout
+	An Employee can logout, A Manager can logout
+
+/reimbursements
+	POST => An Employee can submit a reimbursement request
+/reimbursements?employee-id=[value]&status=pending
+	GET => An Employee can view their pending reimbursement requests
+/reimbursements?employee-id=[value]&status=resolved
+	GET => An Employee can view their resolved reimbursement requests
+
+
+/reimbursements/managers?status=pending
+	GET => A Manager can view all pending requests from all employees
+/reimbursements/managers?status=resolved
+	GET => A Manager can view all resolved requests from all employees and see which manager resolved it
+/reimbursements/{id}
+	PUT => A Manager can approve/deny pending reimbursement requests
+
+
+
+
+An Employee can upload an image of his/her receipt as part of the reimbursement request (extra credit)
+An Employee receives an email when one of their reimbursement requests is resolved (optional)
+
+A Manager can view images of the receipts from reimbursement requests (extra credit)
+A Manager can view reimbursement requests from a single Employee
+

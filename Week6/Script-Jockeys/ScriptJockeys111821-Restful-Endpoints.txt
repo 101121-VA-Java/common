@@ -41,19 +41,16 @@ How to add users from the url/setting up an add user.
 
 RESTful Endpoints
 
-http://localhost:8080/users     -Gets a list of all the users.
-http://localhost:8080/users/{id}  -Gets a user by ID
-http://localhost:8080/users/{username} - Gets a user by Username
-http://localhost:8080/users/{email} -Gets a user by Email
-http://localhost:8080/users/reimbursements - Gets all reimbursements
-http://localhost:8080/users/{id}/reimbursements - Gets all reimbursements of a user by a specific user id.
-http://localhost:8080/users/reimbursements/{reimbursement-id} -Gets a reimbursement by id
-http://localhost:8080/users/reimbursements/{reimbursement-status} - Gets all reimbursements of all users by specific reimbursement status
-http://localhost:8080/users/reimbursements/{reimbursement-type} - Gets all reimbursements of all users by specific type
-http://localhost:8080/users/reimbursements/{reimbursement-resolver} - Gets all reimbursements which a specific MANAGER has resolved.
-http://localhost:8080/users/manager - Gets all users who are MANAGERS
-http://localhost:8080/users/employee - Gets all users who are EMPLOYEES
-
-
-
+http://localhost:8080/users                                           - Gets a list of all the users.
+http://localhost:8080/users/{id}                                      - Gets a user by ID
+http://localhost:8080/users/{username}                                - Gets a user by Username
+http://localhost:8080/users/{email}                                   - Gets a user by Email
+http://localhost:8080/users/reimbursements                            - Gets all reimbursements
+http://localhost:8080/users/{id}/reimbursements                       - Gets all reimbursements of a user by a specific user id.
+http://localhost:8080/users/reimbursements/{reimbursement-id}         - Gets a reimbursement by id
+http://localhost:8080/users/reimbursements/{reimbursement-status}     - Gets all reimbursements of all users by specific reimbursement status
+http://localhost:8080/users/reimbursements/{reimbursement-type}       - Gets all reimbursements of all users by specific type
+http://localhost:8080/users/reimbursements/{reimbursement-resolver}   - Gets all reimbursements which a specific MANAGER has resolved.
+http://localhost:8080/users/manager                                   - Gets all users who are MANAGERS
+http://localhost:8080/users/employee                                  - Gets all users who are EMPLOYEES
 
