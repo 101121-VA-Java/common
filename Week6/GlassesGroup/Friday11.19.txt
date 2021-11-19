@@ -1,0 +1,28 @@
+Friday Stand-up: Share your presentation with your group!
+
+Peter:
+Yesterday- worked on P1 service layers and mapped front end
+Today- Joins for reimbursements
+Presentation Shared!
+Lots of methods written, adding more using SQL commands to database since we aren't using Hibernate yet.
+
+Gerardo:
+Yesterday- Front end, playing with Bootstrap
+Today- Work on backend
+Blockers- Testing and structuring time
+Presentation Shared!
+Work in progress! Trying to understand front-end and BootStrap, setting up backend layers
+
+Hannah:
+Yesterday- Decoupling layers and login systems connecting to front-end
+Today- Continue work writing methods in the backend and connecting them to the front-end
+Presentation Shared!
+Has a front end that does not quite connect to back-end methods yet. 
+When you click on the tabs, it keeps index.html# rather than /newtab
+
+Tricia:
+Yesterday- Read-up on webpages and worked so they can read input information from users
+Today- Send http from login and recieve it with Javalin
+Blockers- The time consumption the Project takes learning and implementing
+Presentation Shared!
+She has tests! And a front-end with a login system! Lots learned and studied!
