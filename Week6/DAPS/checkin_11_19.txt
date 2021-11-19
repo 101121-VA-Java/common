@@ -13,4 +13,6 @@ Patience
     Have most file for each layer and code for some funtinality such as adding an employee and getting all employees, was able to use post to login but having trouble with get         method.
 
 Sam
+   Project Status: Front-end templates are looking pretty good. Completed lot of functions on DAO layer using JDBC and Postgres.
+   - I will be working more with javascript to make api calls and manipulate DOM. 
 
