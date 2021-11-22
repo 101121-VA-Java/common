@@ -11,14 +11,15 @@ Establishing postgres and JDBC
 - What am I working on today				
 Login front to back to work (HTML --> SQL) 		
 - Do I have any blockers				
-
+None
 
 Davey
 - What did I do yesterday
-fleshing out front end/login screen and home page.
+Worked on reimbursement postgres, deemed higher priority than login page at this stage of project. Good portion of Backend is done. 
 - What am I working on today				
-			
-- Do I have any blockers				
+Working on services/controller layers. 			
+- Do I have any blockers
+Unit testing/Logging				
 
 
 
@@ -32,11 +33,11 @@ I have a lackluster understanding of Javascript.
 
 Brayden 
 - What did I do yesterday
-Finish authorization process and setting up HTML pages.	Work on Postgres for reimbursement table.
+Finish authorization process and setting up some HTML pages.	Work on Postgres for reimbursement table.
 - What am I working on today				
-			
+Re-examine GetAll function and see if it needs to get fleshed out a little further with an ID function. HTML page for Reimbursement page and set up paths for Javalin			
 - Do I have any blockers				
-
+Not sure how to use Javalin PUT requests. 
 
 
 
