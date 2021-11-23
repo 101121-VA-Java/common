@@ -5,3 +5,6 @@ What I am working on today:
     - Work on request/responses to send and recieve proper data. 
 Do i have any blockers
     - I currently do not have any blockers.
+--Dean
+Yesterday: integrated hibernate framework, finished setting up authentication handler
+Today: admin and user interface front end
