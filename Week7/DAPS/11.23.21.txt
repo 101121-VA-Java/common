@@ -1,0 +1,7 @@
+Sam
+What I did yesterday:
+    - Finished with management of session and cookies.
+What I am working on today:
+    - Work on request/responses to send and recieve proper data. 
+Do i have any blockers
+    - I currently do not have any blockers.
