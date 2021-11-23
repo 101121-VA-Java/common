@@ -8,3 +8,13 @@ Do i have any blockers
 --Dean
 Yesterday: integrated hibernate framework, finished setting up authentication handler
 Today: admin and user interface front end
+
+--Patience
+What did I do yesterday
+    - Fixed login problem, added update info on the front end       
+    - Started working on populating all employees to the manager page
+What am I working on today
+    -  Populate all employees for manager page
+    - Populate user info on a user page
+Do I have any blockers
+	-none
