@@ -1,0 +1,4 @@
+--Dean
+Yesterday: added more database functionality
+Today: integrated hibernate framework, finish setting up authentication handler
+blockers: TODO: setup and design user and administrator interface pages. for post login.
