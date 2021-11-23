@@ -18,3 +18,11 @@ What am I working on today
     - Populate user info on a user page
 Do I have any blockers
 	-none
+
+Alex
+What I did yesterday
+	-added some controller functionality
+What I am working on today
+	-manager controller, fixing some errors in backend code
+Blockers
+	-currently no blockers
