@@ -16,8 +16,8 @@
 ## Bezza
     Yesterday: I tried to fix setting up routes issues  with javalin, I fixed some issues with some javaScript files with the help of Albert.
 
-   Today: I had my routes issues resolved with the help of Kevin. I will be doing hibernate exercise, I will work on the front-end of my project
-   
+    Today: I had my routes issues resolved with the help of Kevin. I will be doing hibernate exercise, I will work on the front-end of my project
+
     Blockers: No obstacles.
 
 ## Jason
