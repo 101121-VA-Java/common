@@ -6,6 +6,15 @@ What I am working on today:
 Do i have any blockers
     - I currently do not have any blockers.
     
+
+Tricia
+Yesterday:
+    -I worked on more of the front end and created a form to submit for reimbursements.
+Ttoday:
+    -Work on finishing the backend before I continue into more front end.Finish connecting with JDBC and maybe start hibernate?
+Blockers: 
+    -No
+
     
 Jason 
 Yesterday: Tried to rest eyes.
@@ -19,3 +28,4 @@ Study for QC. Worked on frontend.
 Work on frontend.
 - Do I have any blockers.
 none
+
