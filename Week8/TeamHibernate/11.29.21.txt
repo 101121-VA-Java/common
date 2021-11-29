@@ -1,3 +1,7 @@
-## Jason 
-- Yesterday: Tried to rest eyes.
-- Today: Quiz. Learning TypeScript. More migrating Project 1 DAO/repos from JDBC to Hibernate. Study for tomorrow's QC.
+Sam
+What I did yesterday:
+    - Finished with auth token and session.
+What I am working on today:
+    - Finish implementing all the routes to send proper data & populate it in front end.
+Do i have any blockers
+    - I currently do not have any blockers.
