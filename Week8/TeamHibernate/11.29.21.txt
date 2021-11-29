@@ -1,3 +1,3 @@
 ## Jason 
 - Yesterday: Tried to rest eyes.
-- Today: Quiz. Learning TypeScript. More migrating Project 1 DQO/repos from JDBC to Hibernate. Study for tomorrow's QC.
+- Today: Quiz. Learning TypeScript. More migrating Project 1 DAO/repos from JDBC to Hibernate. Study for tomorrow's QC.
