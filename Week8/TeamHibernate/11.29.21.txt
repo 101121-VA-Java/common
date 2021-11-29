@@ -5,3 +5,17 @@ What I am working on today:
     - Finish implementing all the routes to send proper data & populate it in front end.
 Do i have any blockers
     - I currently do not have any blockers.
+    
+    
+Jason 
+Yesterday: Tried to rest eyes.
+Today: Quiz. Learning TypeScript. More migrating Project 1 DAO/repos from JDBC to Hibernate. Study for tomorrow's QC
+
+
+Kendrick 
+- What did I do yesterday
+Study for QC. Worked on frontend.
+- What am I working on today				
+Work on frontend.
+- Do I have any blockers.
+none
