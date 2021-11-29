@@ -1,55 +1,71 @@
-Interviewer:
-Interviewee:
-Scribe:
+Interviewer: David Wysocki
+Interviewee: Hannah Wallaker
+Scribe: Albert Lee
 Key: Q= Question, A = Answer, S = Scribe notes(optional)
 
-Q:
-A:
+Q: What is the difference between eager and lazy fetching, and how to set up either of them?
+A: Lazy loading returns a proxy of the resource vs eager fetching gets the resource and all associated resources at the same time.
+How to set them up? Not sure. FetchType.eager/lazy.
 
-Q:
-A:
+Q: What are the different object states in Hibernate and what moves objects to different states?
+A: Persisted, Transient, Detached
+persisted is .save
+detached is .close
 
-Q:
-A:
+Q: What does the acronym REST stand for? What makes a service RESTful?
+A: Representative state transfer. It is a way to set up your api that has certain characteristics. 
+Richardson Maturity Model might be related.
+HTTP verbs, naming a certain way, easily cacheable, etc.
 
-Interviewer:
-Interviewee:
-Scribe:
+Interviewer: Patience Korrie
+Interviewee: David Wysocki
+Scribe: Albert Lee
 Key: Q= Question, A = Answer, S = Scribe notes(optional)
 
-Q:
-A:
+Q: What are some of the JPA annotations that you've worked with? And what do they do?
+A: 
+@Id in sql terms sets up a serial or primary key.
+@Table is where we can specify the name of the table.
+@Column notes where there will be a column for the table.
 
-Q:
-A:
+Q: What are the interfaces of Hibernate?
+A: Criteria, Session, SessionFactory, Query, (missing Transaction)
 
-Q:
-A:
+Q: What is Javalin?
+A: We use Javalin to communicate between our backend Java program and our HTTP requests that we are sending in.
 
-Interviewer:
+Interviewer: Hannah Wallaker
 Interviewee:
-Scribe:
+Scribe: Albert Lee
 Key: Q= Question, A = Answer, S = Scribe notes(optional)
 
-Q:
-A:
+Q: L1 vs L2 cache
+A: L1 session L2 session factory
 
-Q:
-A:
+Q: Explain REST
+A: Didn't know exact from notes.
 
-Q:
-A:
+Q: Constraints of HTTP
+A: Didn't really know
+  1. uniform interface
+  2. client
+  3. stateless
+  4. cacheable
+  5. layered
 
-Interviewer:
-Interviewee:
-Scribe:
+Interviewer: Albert Lee
+Interviewee: Patience Korrie
+Scribe: Albert Lee
 Key: Q= Question, A = Answer, S = Scribe notes(optional)
 
-Q:
-A:
+Q: What is Hibernate?
+A: Hibernate replaces JDBC. Instead of using plain sql we use Hibernate with the database. You don't have to specify a specific query language and hibernate handles that for you.
 
-Q:
-A:
+Q: What is JPA?
+A: Java Persistance API. Manages data. JPA is not Hibernate.
 
-Q:
-A:
+Q: What is the difference between the two?
+A: JPA is kind of like an interface, while Hibernate implements that interface.
+
+Q: What is Object mapping? What is Jackson?
+A: It is used to interact with the frontend and backend. Has a head and body. 
