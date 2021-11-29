@@ -5,3 +5,11 @@ What I am working on today:
     - Finish implementing all the routes to send proper data & populate it in front end.
 Do i have any blockers
     - I currently do not have any blockers.
+    
+Tricia
+What I did yesterday:
+    -I worked on more of the front end and created a form to submit for reimbursements.
+What I am working on today:
+    -Work on finishing the backend before I continue into more front end.Finish connecting with JDBC and maybe start hibernate?
+Do I have any blockers: 
+    -No
