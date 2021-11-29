@@ -1,0 +1,36 @@
+Group name: The Angulars
+Date: 11/29/21
+Davey Agrinsoni, Alex Darvin, Dean Long, Brayden Whitlock
+
+Brayden:
+What did you do last week?:
+-Finished Profile page and User update page.
+What will you work on today?:
+-Figure out how to get multiple objects from a call and looking at reimbs using different statuses
+	and display all users and reimbs at the same time.
+Any blockers?:
+- Not sure how to display multiple objects from a single call.
+
+Dean:
+What did you do last week?:
+-Finished layout for Front end.
+What will you work on today?:
+-Get front end to talk to back end.
+Any blockers?:
+-Struggling with Javalin and Javascript.
+
+Alex
+What did you do last week?:
+- Made manager and employee controllers into one User controller
+What will you work on today?:
+- Get database all setup and finish Reimb functionality. 
+Any blockers?:
+-Javalin setup.
+
+Davey
+What did you do last week?:
+-Basic framework for all my html pages
+What will you work on today?:
+-Finish writing backend calls from employee pages.
+Any blockers?:
+- Need to work more on HTTP Rrquest.
