@@ -1,0 +1,35 @@
+Group name: The Angulars
+Date: 11/30/21
+Davey Agrinsoni, Alex Darvin, Dean Long, Brayden Whitlock
+
+Brayden:
+What did you do yesterday?:
+-Got the getAllUsers() working on an html page.
+What will you work on today?:
+-Figure out how to getAllReimbByStatus() to work on an html page.
+Any blockers?:
+- Not sure how to add conditions to a getAll() on a html page.
+
+Dean:
+What did you do yesterday?:
+-Manage to figure out a bug with DOM causing some issues with front and back end talking.
+What will you work on today?:
+-Finalize front end bridge to backend.
+Any blockers?:
+-Struggling with Javalin and how it handles authorization.
+
+Alex
+What did you do yesterday?:
+- Fixed some Reimb service functionality and good portion of Service layer functionality for other models.
+What will you work on today?:
+- Finish up a majority of the backend functions and implementation.
+Any blockers?:
+-Javalin setup.
+
+Davey
+What did you do yesterday?:
+-Helped Brayden figure out how getAllUsers() works and added some more pages.
+What will you work on today?:
+-Probably help Brayden with figuring out the Reimb stuff and try to get adding objects done.
+Any blockers?:
+- Need to figure out more functionality of JS to flush out a lof of my pages.
