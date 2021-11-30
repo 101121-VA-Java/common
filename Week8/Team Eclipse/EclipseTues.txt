@@ -7,11 +7,11 @@ Group Composition: Hannah Wallaker, Albert Lee, Patience Korrie, David Wysocki
 
 Hannah
 - What did I do yesterday
-
+Delveloped html pages for the entire front-end and started linking to my backend one by one.
 - What am I working on today				
-		
+Continue to connect front to back page by page and functionality by functionality. 		
 - Do I have any blockers				
-
+I honestly like front end a whole lot less than back-end. I want to hang out back there. Which was a surprise. 
 
 Albert
 - What did I do yesterday
