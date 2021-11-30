@@ -25,10 +25,14 @@ Eye problems, hopefully will get better in the next few days
 
 Patience
 - What did I do yesterday
+	- I made sure both employee and manager could update
+	- added form for making a request, and started the http post in js
 
-- What am I working on today				
+- What am I working on today
+	- for employee to be able to make a request and view it in pending
 			
-- Do I have any blockers				
+- Do I have any blockers
+	- none
 
 
 David
