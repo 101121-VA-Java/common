@@ -33,11 +33,11 @@ Patience
 
 David
 - What did I do yesterday
-
+Worked on fixing up backend to frontend communication with Albert Lee's help
 - What am I working on today				
-		
+Finishing Reimbursements/setting up manager and employee dash		
 - Do I have any blockers				
-
+None currently
 
 
 
