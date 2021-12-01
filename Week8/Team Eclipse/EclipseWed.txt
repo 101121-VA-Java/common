@@ -14,12 +14,9 @@ Hannah
 
 
 Albert
-- What did I do yesterday
-
-- What am I working on today				
-		
-- Do I have any blockers
-				
+Yesterday: Receipt upload feature
+Today: 	Make users list a bit more presentable, maybe do some basic service layer tests.
+Blockers: Can't figure out how to return image from a bytea column in postgresql as json to the frontend.		
 
 
 
