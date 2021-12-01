@@ -43,3 +43,12 @@ Kendrick
 Work on frontend.Fix Auth issues
 - Do I have any blockers.
 Feeling under the weather.
+
+
+Tricia
+Yesterday:
+    -I worked on more of the front end again, and setting up endpoints to pull data from.
+Ttoday:
+    -Finish the employee actions possibly? I believe I am very close to that, but I still need to work on both front and backend to get there.
+Blockers: 
+    -No
