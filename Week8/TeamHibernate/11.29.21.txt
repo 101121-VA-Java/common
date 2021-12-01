@@ -35,3 +35,11 @@ Jason
 Yesterday: QC, learned Angular basics, worked on Project 1. Went to doctor and got eye medication.
 Today: More Angular training, and working on Project 1.
 Blockers: Eye issues improving slowly.
+
+Kendrick 
+- What did I do yesterday
+ Worked on frontend. 
+- What am I working on today				
+Work on frontend.Fix Auth issues
+- Do I have any blockers.
+Feeling under the weather.
