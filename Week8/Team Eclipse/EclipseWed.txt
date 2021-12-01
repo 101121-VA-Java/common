@@ -7,11 +7,11 @@ Group Composition: Hannah Wallaker, Albert Lee, Patience Korrie, David Wysocki
 
 Hannah
 - What did I do yesterday
-
+	Connecting frontend to backend
 - What am I working on today				
-		
+	Connecting frontend to backend and debugging what I have written	
 - Do I have any blockers				
-
+	As long as I cen get over my humps, I should be good!
 
 Albert
 Yesterday: Receipt upload feature
