@@ -29,3 +29,31 @@ Work on frontend.
 - Do I have any blockers.
 none
 
+WEDNESDAY 12/1
+
+Jason
+Yesterday: QC, learned Angular basics, worked on Project 1. Went to doctor and got eye medication.
+Today: More Angular training, and working on Project 1.
+Blockers: Eye issues improving slowly.
+
+Kendrick 
+- What did I do yesterday
+ Worked on frontend. 
+- What am I working on today				
+Work on frontend.Fix Auth issues
+- Do I have any blockers.
+Feeling under the weather.
+
+
+Tricia
+Yesterday:
+    -I worked on more of the front end again, and setting up endpoints to pull data from.
+Ttoday:
+    -Finish the employee actions possibly? I believe I am very close to that, but I still need to work on both front and backend to get there.
+Blockers: 
+    -No
+    
+Sam 
+Yesterday: worked on merging font end and back end. 
+Today: Work on implementing more functions, learn more about Angular.
+Blockers: I currently do not have any blockers.

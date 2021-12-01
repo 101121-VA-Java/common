@@ -25,10 +25,13 @@ Albert
 
 Patience
 - What did I do yesterday
+	- Got the employee to be able to make a Reimbusment
 
-- What am I working on today				
+- What am I working on today
+	- populate pending and resolved request on employee page
 			
-- Do I have any blockers				
+- Do I have any blockers	
+	- none
 
 
 David
