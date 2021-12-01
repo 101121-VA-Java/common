@@ -52,3 +52,8 @@ Ttoday:
     -Finish the employee actions possibly? I believe I am very close to that, but I still need to work on both front and backend to get there.
 Blockers: 
     -No
+    
+Sam 
+Yesterday: worked on merging font end and back end. 
+Today: Work on implementing more functions, learn more about Angular.
+Blockers: I currently do not have any blockers.
