@@ -29,3 +29,9 @@ Work on frontend.
 - Do I have any blockers.
 none
 
+WEDNESDAY 12/1
+
+Jason
+Yesterday: QC, learned Angular basics, worked on Project 1. Went to doctor and got eye medication.
+Today: More Angular training, and working on Project 1.
+Blockers: Eye issues improving slowly.
