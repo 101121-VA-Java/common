@@ -33,11 +33,11 @@ Patience
 
 David
 - What did I do yesterday
-
+Finished Manager functions
 - What am I working on today				
-		
+Finish Employees side which will finish basic function of project		
 - Do I have any blockers				
-
+None.
 
 
 
