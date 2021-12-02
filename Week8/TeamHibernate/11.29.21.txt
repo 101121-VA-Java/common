@@ -65,6 +65,14 @@ THURSDAY 12/2/21
 Tricia
 Yesterday:
     - I worked on developting endpoints on the back end and checking with Postman that information is being sent correctly.
+    
+    Kendrick 
+- What did I do yesterday
+ Worked on frontend. they to fix paths. Changed some methods in the backend 
+- What am I working on today				
+Work on frontend.Fix fic path issues. Try to figure out put method path
+- Do I have any blockers.
+none
 Today:
     - I need to work on the front-end on displaying information and sending requests back.
 Blockers:
