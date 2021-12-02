@@ -15,10 +15,11 @@ Hannah
 
 Albert
 - What did I do yesterday
-
+Worked on image retrieval
 - What am I working on today				
-		
+Helping my team and possibly image retrieval/
 - Do I have any blockers
+Nope!
 				
 
 
