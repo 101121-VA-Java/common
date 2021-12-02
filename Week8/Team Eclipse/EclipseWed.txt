@@ -33,11 +33,11 @@ Patience
 
 David
 - What did I do yesterday
-
+Work on implementing javascript and functions for Managers
 - What am I working on today				
-		
+	Finish Manager functions	
 - Do I have any blockers				
-
+none
 
 
 
