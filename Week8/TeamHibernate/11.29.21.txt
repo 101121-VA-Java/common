@@ -77,3 +77,9 @@ Today:
     - I need to work on the front-end on displaying information and sending requests back.
 Blockers:
     -None
+    
+    
+Jason
+Yesterday: Finished migrating DAO/repo layer from JDBC to Hibernate.
+Today: Refactor services to use Hibernate repos instead of JDBC.
+Blockers: Eyes recovering slowly. Went to doctor again yesterday afternoon.
