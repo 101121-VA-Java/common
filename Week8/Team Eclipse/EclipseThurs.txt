@@ -26,10 +26,17 @@ Nope!
 
 Patience
 - What did I do yesterday
+	- I was able to get the manager to approve or deny a request
+	- the empolee and manager are able to view pending reimbusments and resolved request
+	- Manager is able to view a specific employee's reimbusments
 
-- What am I working on today				
+- What am I working on today	
+	- make sure the resolver name is showing instead of the id
+	- maybe check out email bonus
+	- clean up code
 			
-- Do I have any blockers				
+- Do I have any blockers	
+	- none
 
 
 David
