@@ -83,3 +83,8 @@ Jason
 Yesterday: Finished migrating DAO/repo layer from JDBC to Hibernate.
 Today: Refactor services to use Hibernate repos instead of JDBC.
 Blockers: Eyes recovering slowly. Went to doctor again yesterday afternoon.
+
+Sam 
+Yesterday: Completed most of the project.
+Today: Work on the remaining parts, add extra features if there is time.
+Blockers: I currently do not have any blockers.
