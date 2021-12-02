@@ -57,3 +57,15 @@ Sam
 Yesterday: worked on merging font end and back end. 
 Today: Work on implementing more functions, learn more about Angular.
 Blockers: I currently do not have any blockers.
+
+
+
+THURSDAY 12/2/21
+
+Tricia
+Yesterday:
+    - I worked on developting endpoints on the back end and checking with Postman that information is being sent correctly.
+Today:
+    - I need to work on the front-end on displaying information and sending requests back.
+Blockers:
+    -None
