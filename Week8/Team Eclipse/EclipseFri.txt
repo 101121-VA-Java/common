@@ -15,10 +15,11 @@ Hannah
 
 Albert
 - What did I do yesterday
-
+Lots of finishing touches to p1
 - What am I working on today				
-		
+Angular hands on exercise, also working on review questions with the team
 - Do I have any blockers
+Nope
 				
 
 
