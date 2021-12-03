@@ -25,6 +25,10 @@ Albert
 
 Patience
 - What did I do yesterday
+	- Manager is able to view a single employee's reimbustments
+	- cleaned up code, added loging
+	- test all funtionality to make sure they work
+	-pushed to github
 
 - What am I working on today				
 			
