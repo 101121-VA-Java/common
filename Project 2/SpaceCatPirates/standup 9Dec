@@ -1,20 +1,20 @@
 ##12/9 Wednesday
 # Dean
-- Yesterday: 
-- Today: 
+- Yesterday: begin Angular and Spring Projects added logging and object models
+- Today: Database configurations authentication setup
 - Blockers: 
 
 # Patience
-- Yesterday: 
-- Today: 
+- Yesterday: Login page layout 
+- Today: build auth token layout
 - Blockers: 
 
 # Bezza
-- Yesterday: 
-- Today: 
-- Blockers: 
+- Yesterday: working on Auctioneer can create auction part
+- Today: working on Auctioneer auction list 
+- Blockers: pagniation of returned auctions
 
 # Albert
-- Yesterday: 
-- Today: 
+- Yesterday: built backend initial project
+- Today: configuring database parameters
 - Blockers:
