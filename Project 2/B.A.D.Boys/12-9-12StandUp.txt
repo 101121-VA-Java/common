@@ -1,0 +1,45 @@
+Group name: The B.A.D Boys
+Date: 12/9/21
+Brayden Whitlock, Alex Darvin,  Davey Agrinsoni
+
+Group to do list 
+ 1. Use spring to enable data persistence. 
+ 2. Assess a list inside an online API.
+ 3. View databases in dBevear.
+ 4. Fill out application.yml to use Amazon api for data persistence. Set up environment variables. 
+ 5. Set up validation for user
+ 6. use swagger 2 in project to check functionality change version of spring if needed(bonus)
+ 7. Set up lombock(bonus)
+ 8. Set up h2 for in memory db Add h2 to dependencies for changing the application.yml makes reset      	unnecessary(bonus)
+ 9. figure out url endpoints
+10. make flow chart for application
+
+Brayden:
+What did you do yesterday?:
+ - Got front end and back end communication. Remade back end with spring. Make some mock users. Make the global exception handling. Made a model for fruitevice. Figure out how to display from a list inside the online api.
+What will you work on today?:
+ - work on enabling data persistence.
+Any blockers:
+ - none 
+
+Alex
+What did you do yesterday?:
+ - troubleshooting
+What will you work on today?:
+ - detailing  all necessary files in front end 
+Any blockers:
+ - merge confit mayhem
+
+Davey
+What did you do yesterday?:
+ - enabled spring handling 
+What will you work on today?:
+ - find out how to access nutritions in fruitevice
+Any blockers:
+ - none
+
+
+
+
+
+
