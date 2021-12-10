@@ -1,0 +1,31 @@
+Interviewer: Dean
+Interviewee: Patience
+Scribe: Albert
+Q1: Tell me what the difference between Spring projects and Spring modules
+A1:  Spring modules are usually addressing a specific concern. Different features within the Spring framework. Spring core, spring context, etc. are different features in the Spring framework. Spring projects address industry concerns like concerns, data, microservices, etc. Projects are more general, whereas modules are more specific.
+Q2: What is a transaction in Spring transactions?
+A2: Transactions are used when you are communicating with your database. To keep things in order so that when certain things change in the database we are in the right updated version of that and nothing else is going on with the data being persisted. 
+Q3: If something goes wrong in the middle of a transaction what happens?
+A3: It depends on the state of the transaction. If it’s already committed or at the save point. In general if something does go wrong it should be able to catch those and not allow you to go further until it’s been fixed.
+Q4: Tell me about dependency injection.
+Dependency injection abstracts away most of the code. It’s all of the things that are needed for the code to work properly. For example if you are creating a class and you are trying to call another class, instead of needing to create that class, dependency injection does that for you.
+
+Interviewer: Patience
+Interviewee: Bezza
+Scribe: Albert
+Q1: What is autowiring?
+A1: It is about bean wiring. It’s about communicating what spring beans… don’t have good grasp. Communication between beans?
+Q2: What is a pointcut in Spring AOP?
+A2: Advice? Where a specific that makes change should be applied
+Q3: What is the benefit of using spring boot?
+A3: It does most of the setting and…?
+
+Interviewer: Bezza
+Interviewee: Albert
+Scribe: Albert
+Q1: What are the different ways that Spring can wire beans?
+A1:  @component, @service, @autowired, others
+Q2: What are the benefits and limitations of Java configuration
+A2: No idea
+Q3: What is @value used for
+A3: My best guess would be if you’re talking about a database column
