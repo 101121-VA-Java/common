@@ -1,0 +1,45 @@
+Group name: The B.A.D Boys
+Date: 12/10/21
+Brayden Whitlock, Alex Darvin,  Davey Agrinsoni
+
+
+Brayden: 
+ Scribe: Davey
+ 1. What is Spring?
+	-"Spring allows a user to . . . . . .uhhhh" 
+	Alex:" What is the purpose of spring?
+	-Brayden:"It allows a user to produce stand alone applications that are abstracted in such a way that the user can easily create new applications."
+ 2. What feature does Spring provide in order to accelerate software development?
+	= Spring boot/Spring Data/String AOP and may others/
+ 3. What is an IoC?
+	-"I feel like I know this but cannot remember. (Ponders deeply) If I remember correctly the IoC is were a bunch of data for the spring core is held so it knows about a bunch of different modules it can use.
+
+
+Alex:
+ 1. What type of dependency injection does spring support?
+	question response - constructor is one, setter is one and so is field. Interface is 
+		not supported by spring. He only knew constructor.  
+	answer - constructor and setter 
+ 2. How would you declare which HTTP requests you’d like a controller to process?
+	question response - dosn't know 
+	answer -  dispatcher servlet 
+ 3. What does “convention over configuration” mean?
+	question response - use of common naming conventions to optimize code 
+	answer - instead of manual definition auto assume convention. 
+
+Davey:
+ 1. Q: Define Join Point, Pointcut, advice
+	A: Unsure
+	Real Answer: join point - any code that can be modified by an advice(where advice happens)  pointcut - information within an annotation that specifies when an advice takes place, advice - an entity that modifies code
+ 2. Q: What are the different types of advice?
+	A: @Around, unsure of rest
+	Real Answer: @Before, @After, @Around, @AfterReturning, @AfterThrowing
+ 3. Q: What does the @Configuration and @Bean annotations do?
+	A: Doesn't remember
+	Real Answer: @Bean declares that code underneath it is controlled by Spring Core.  @Configuration used to declare that a class provides 1 or more Bean methods
+
+
+
+
+
+
