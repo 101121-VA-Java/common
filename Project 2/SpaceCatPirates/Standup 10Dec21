@@ -1,0 +1,19 @@
+Dean
+Yesterday: attempted to sideby side h2 and jdbc
+Today: user demographic updates
+Blockers: none
+
+Patience
+Yesterday: login functionality in angular
+Today: login working properly with backend, user can view corresponding page, and logout
+Blockers: none
+
+Bezza
+Yesterday: set up the components on angular to show the arts on auction but didn’t see the result I expected
+Today: I will review my attempt with my team to fix the problem
+Blockers: none
+
+Albert
+Yesterday: set up db configuration, lombok, fixed db naming convention, login, register
+Today: BE return Bids by item id, BE Auctioneer can Create Auctions, - BE List Bids by Client
+Blockers: no
