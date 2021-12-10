@@ -1,0 +1,48 @@
+Group name: The B.A.D Boys
+Date: 12/10/21
+Brayden Whitlock, Alex Darvin,  Davey Agrinsoni
+
+Group to do list 
+ 1. make a token for front end
+ 2. Set up validation for user
+ 3. Set up h2 for in memory db Add h2 to dependencies for changing the application.yml makes reset      	unnecessary(bonus)
+ 4. figure out url endpoints
+ 5. Double check flow chart for application
+ 6. Set up dummy data h2 may help with this
+ 7. Reconfigure application.yml with fail-on-empty-beans: false and other...
+ 8. Set up prod/dev environments
+ 9. Don't forget about portfolio on rev pro Due the 13th 
+10. Reconfigure role to use an enum(bonus) also use a many to one relation 
+11. create a dto for user and other if needed. (In order to hide data in front end).
+12. Set up environment files in front end allows automatic change from dev to prod.
+13. Set up logging.
+
+Brayden:
+What did you do yesterday?:
+ - worked on enabling data persistence.
+What will you work on today?:
+ - setting up application.yml properly and enabling validation token 
+Any blockers:
+ - none 
+
+Alex
+What did you do yesterday?:
+ - detailed all necessary files in front end 
+What will you work on today?:
+ - finish generating components configure environment files
+Any blockers:
+ - none
+
+Davey
+What did you do yesterday?:
+ - found out how to access nutritions in fruityvice. Set up swagger.
+What will you work on today?:
+ - helping set up validation 
+Any blockers:
+ - none
+
+
+
+
+
+
