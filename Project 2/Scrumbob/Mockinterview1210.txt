@@ -1,0 +1,49 @@
+Interviewer: David Wysocki
+Interviewee: Jeremy Steinhafel
+Scribe: Tricia Goodwin
+Key: Q= Question, A = Answer
+
+Question 1: What is a Spring Bean?
+Answer 1: Managed by the Spring IoC container - an object that makes up the application
+Question 2: What is Inversion of Control?
+Answer 2: A process where an object defines its dependencies - does not create them. Creating dependencies is the job of the IoC container.
+Question 3: What is Bean Wiring?
+Answer 3: Connecting dependencies between Spring Beans - Can be XML or Annotation Based - @Autowired
+
+Interviewer: Jeremy Steinhafel
+Interviewee: Tricia Goodwin
+Scribe: David Wysocki
+Key: Q= Question, A = Answer
+
+Question 1: What are Spring Projects and Spring Modules
+Answer 1: So, uh, Spring modules are like Spring beans, they address a concern within the application. A Spring Project is made of Spring midules and addresses a larger industry concern, like data persistance is handled by the Spring project Spring Data.
+Question 2: What are some differences between BeanFactory and ApplicationContext? Which one eagerly instantiates your beans?
+Answer 2: Bean Factory is older version of the IoC container, and it utilized lazy initialation for beans while Application Context is the newer version and it utilizes eager instantiation to load beans.
+Question 3: What is the difference between @RequestMapping and @GetMapping?
+Answer 3: RequestMapping needs an Http method specified as a parameter, GetMapping maps only GET Http requests.
+
+
+
+Interviewer: Tricia Goodwin
+Interviewee: Gerardo Barnett
+Scribe: Jeremy Steinhafel
+Key: Q= Question, A = Answer
+
+Question 1:What is Spring Data JPA?
+Answer 1: Is a Spring Project that is used to address data persistence.
+Question 2: What is Spring Web MVC?
+Answer 2: It's a Spring module that allows us to handle http requests for Spring Application.
+Question 3: What is Spring Boot?
+Answer 3: It's a Spring Project that makes it easy to create um .... spring applications that you can just run.
+
+Interviewer: Gerardo Barnett
+Interviewee: David Wysocki
+Scribe: Tricia Goodwin
+Key: Q= Question, A = Answer
+
+Question 1: What does @Transactional do? 
+Answer 1: metadata that sepcifies the transaction that a method performs.
+Question 2: What is dependency injection and what are some of the benefits of using dependency injection?
+Answer 2: Dependency injection happens when spring injects objects into other objects. 
+Question 3: Explain the MVC architecture and how HTTP requests are processed in the architecture
+Answer 3: I will need to review the documentation for this question.
