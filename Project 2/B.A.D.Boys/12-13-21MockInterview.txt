@@ -4,32 +4,63 @@ Brayden Whitlock, Alex Darvin,  Davey Agrinsoni
 
 
 Interviewie: Brayden
-Interviewer:
-Scribe: 
- 1.
- 2
- 3. 
- 4. 
- 5.
+Interviewer: Alex
+Scribe: Davey Giovanni Agrinoni Laureano 
+ 1. What does the @Transaction annotation do?
+	-Specifies that the module will have a transaction in it and it has 
+	access to the transaction modules
+
+ 2. What is a proxy?
+	-A proxy is a placeholder object that gives access to a bunch of annotations that can be used
+	 
+ 3. What are the advantages to using a RT
+	It's easy to understand the url path and allows any new user to accurately understand what 
+	the url path will be. 
+ 4. What are the 3 types of Dis
+ 	-Method, class and something like global. It's not called global but it's something like 
+	global.
+	A: Constructor,Setter and field. 
+5. What are the scopes of Spring Beans
+	Global, Class, method, can't remember the other two. OH Singleton is the default.
+	A:Missed Prototype,Request and session.
 
 
 Interviewie: Alex
-Interviewer:
-Scribe:
- 1.
- 2
- 3. 
- 4. 
- 5.
+Interviewer: Davey 
+Scribe: Brayden 
+ 1.Q: What is the naming conventions for methods in Spring Data repositories?
+	A: lower snake case 
+ 2.Q: What is the difference between @RequestMapping and @GetMapping?
+	A: get mapping = specific get request  request mapping = mapping for whatever request 
+	you want  
+	CA: different scopes
+ 3.Q: What is the Spring Bean lifecycle?
+	A: the bean is created the container created the instance of the bean, the dependencies
+	 are injected then the bean is destroyed. 
+	CA: the bean is instantiated, the services are made aware of the bean, the bean is used,
+	 the bean is destroyed 
+ 4.Q: What is @Value used for?
+	A: don't know 
+	CA: used to give a default value to an object. 
+ 5.Q: What are the different types of advice? What is special about the @Around advice?
+      How is the ProceedingJoinPoint used?
+	A: join point, pointcut, advice?? @before, @after, @after_returning, @after_throwing, @around
+	CA: ProceedingJoinPoint - used to control the code flow. 
 
 Interviewie: Davey
-Interviewer:
-Scribe:
- 1.
- 2
- 3. 
- 4. 
- 5.
+Interviewer: Brayden 
+Scribe: Alex
+ 1.Q: What is IoC and what does the IoC Container do?
+	A: Inversion of control, a design paradigm where you invert controls and how a method is executed.  Method execution is handled automatically but user has less control.  Container handles instantiation and dependency injection for Spring Beans
+	
+ 2.Q: What does convention over configuration mean?
+	A: A design paradigm were a developer only needs to define unique configuration for their project. saves programing time
+ 3.Q: What is the Spring Boot Actuator and what information can it give you?
+	A: Allows you to view different endpoints of your program via HTTP responses and view the health of your application.
+ 4.Q: What annotation would you use to bypass the ViewResolver?
+	A: @PathVariable - retrieves a value from path URL, @requestParam - looks at query params of URL retrieves value of each key in query
+ 5.Q: What do the @Configuration and @Bean annotations do
+	A: @Configuration indicates that multiple beans are being used within the class.  @Bean indicates a method level bean being used.
 
 
 
