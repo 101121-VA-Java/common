@@ -5,7 +5,7 @@ Brayden Whitlock, Alex Darvin,  Davey Agrinsoni
 Group to do list 
  1. make a token for front end
  2. Set up validation for user
- 3. Set up h2 for in memory db Add h2 to dependencies for changing the application.yml makes reset      	unnecessary(bonus)
+ 3. Set up h2 for in memory db Add h2 to dependencies for changing the application.yml makes reset unnecessary(bonus)
  4. figure out url endpoints
  5. Double check flow chart for application
  6. Set up dummy data h2 may help with this
