@@ -1,0 +1,78 @@
+Interviewer: Jason
+Interviewee: Kendrick
+Scribe: Sam KC
+
+Q1:  What is dependency injection and what are some of the benefits of using dependency injection?
+Benefit: decoupling of classes, makes code cleaner and provides reusability. 
+
+Q2: What types of dependency injection does Spring support?
+Constructor, Field, Setters, Interface Injector (not supported by Spring)
+Syntax for Constructor Injector?
+(private Authservice, ) 
+
+Q3:  Which type of dependency injection is best practice?
+Constructor
+
+Q4:  What is the purpose of View Resolver?
+Function is to pick up and define methods / requests and return a view.
+What is the View?
+The Request.
+
+Q5: What is @transient annotation ?
+Indicating that the method should be run with transaction management. 
+
+
+Interviewer: Kendrick
+Interviewee: Sam
+Scribe: Hannah
+Q1: How is Spring Boot different from Spring Applications? What is opinionated?
+It is different because it automatically configures your configuration file. Opinionated means it had the default configurations for you. You don’t have to spend time configuring, you can just run it.
+
+Q2: What is the advantage of an embedded TomCat server?
+You don’t have to install it, Spring Boot takes care of the server. It helps with the ease of running the applications. Helps with the deployment of the application.
+
+Q3: Can you define a JoinPoint?
+I am going to have to do some review on that one! (A point during execution in the program, can be modified by advice)
+
+Q4: What is Spring ORM and Spring Data?
+Spring ORM is a module that takes care of the persistence technologies such as JPA and Hibernate. Spring Data is a framework. It is a Spring Module that is built on Hibernate and JDBC that makes it easier to interact with the database. 
+
+Q5: What is the difference between @RequestMapping and @GetMapping?
+They both serve the same purpose, GetMapping is an alternate way of using the annotation. GetMapping would be class level and RequestMapping would be method. 
+
+
+Interviewer: Hannah
+Interviewee: Jason
+Scribe: Kendrick
+Q1:What is the concept of component scanning and how would you set it up?
+The concept is the spring framework. You would stereotype that annotation Enables Spring to scan for things like configurations, controllers, services, and other components we define within the application.
+Q2: 1.       What are the benefits and limitations of java config?
+You don’t have to set up the xml file and give it configurations. The configurations will be less specific since it is being done by spring
+
+Q3:How will you handle exceptions in your code?
+You can set up how it going to be handled.GlobalException Handling
+ 
+Q4:1.       What are the different types of advice?
+Type of advice are -around, before, and after. @Around is the most powerful kind of advice. 
+Q5:1. What is the Spring Boot actuator? What information can it give you?
+information about the application using certain endpoints. - metrics (state of app) -bean info - health checks - production-ready features of the application
+
+
+
+Interviewer: Sam KC
+Interviewee: Hannah Wallaker
+Scribe: Jason
+Q1: What is the benefit of using Spring Boot profiles?
+You can work with developing the project in a test environment, and then you can move it to production environment easily. 
+
+Q2: How are Spring repositories implemented by Spring at runtime?
+It checks the mapping and then checks the .ddl-auto settings to implement it when the application is run.
+
+Q3: What is the role of the Dispatcher Servlet?
+The dispatcher servlet acts as an embedded front controller and takes us to our routes.
+
+Q4: How do you declare the data format your controller expects from the request?
+The path parameter, i.e.: @pathVariable annotation.
+
+Q5: Explain the point-cut expression syntax.
+Not too sure. Would need to check the documentation.
