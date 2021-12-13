@@ -1,0 +1,179 @@
+Spring Core
+1.       	What are Spring Projects and Spring Modules?
+Spring Modules are "features" within the Spring framework, usually address a specific concern within an application
+It is a part of core spring runtime framework. Some features include SpringCore (IoC Container)- SpringBeans- SpringContext- SpringWebMVC- SpringAOP- SpringORM.
+As for Spring projects they address different industry concerns like Security, Microservice Architecture, Rapid development. they provide solutions to other issues faced by enterprise applications Some include - Spring Security- SpringCloud- SpringBoot- SpringData.
+2.       	What is IOC and what does the IOC Container do?
+It’s a Spring container and basically a framework for implementing automatic dependency injection. It is responsible for instantiating our dependencies.
+It creates an object of the specified class and injects all the dependency objects through a constructor, a property, or a method it is a type of inversion of control.
+3.       	What is dependency injection and what are some of the benefits of using dependency injection?
+A benefit of dependency injection is decreased coupling between classes and their dependencies. This makes the code cleaner and improves reusability throughout the program.
+Dependency- object/entity needed for our code to work properly. Injection- framework provides the instances of these objects for us
+4.       	What types of dependency injection does Spring support?
+ Field injection - dependency is placed/injected directly into the field/property itself. Setter injection - dependency is placed/injected via the setter. Constructor injection - dependency is placed/injected using a constructor with fields - interface injection - not supported by Spring
+5.       	What are some differences between BeanFactory and ApplicationContext? Which one eagerly instantiates your beans?
+A high definition is the Bean Factory is the older version of the IoC container it delivers lazy instantiation. - AC is the newer version of the IoC container and it has all of the functionality of the BF and more and offers eager instantiation
+6.       	What is the Spring Bean lifecycle?
+It is managed by the IoC container they are Post-initialization; Pre-destruction are the two main cycles but there are 8 steps in the documentation.
+7.       	What is bean wiring? What about autowiring?
+Refers to ability to establish dependencies between Spring beans. Also, is the process of combining beans with the Spring container. Autowiring is used to tell Spring that an object is a dependency and tells Spring where an injection needs to occur. 
+8.       	What are the different ways that Spring can wire beans?
+either XML or annotations.  Wiring is done typically in an XML configuration file. The configuration file contains the definitions of the beans. With Annotations a Spring Configuration class needs to be created and the class @Configuration needs to be annotated. 
+9.       	What are the scopes of Spring beans? Which is default?
+- Singleton: only one of the bean is created, all request for this bean gets the same one-default
+          	- Prototype: every time this bean is requested, all requests get a new one
+          	- Request: web-based, new bean is created per HTTP Request
+          	- Session: web-based, new bean is created per HTTP Session
+          	- Global: web-based, new bean is created per Global HTTP Session
+10.    	What is the concept of component scanning and how would you set it up?
+@ComponentScan annotation along with the @Configuration annotation to specify the packages that we want to be scanned. Enables Spring to scan for things like configurations, controllers, services, and other components we define within the application.
+11.    	What are the benefits and limitations of Java configuration?
+Compile-Time Feedback due to Type-checking -Refactoring Tools for Java without special support/plugins- Separation of concerns – beans configuration is separated from beans implementation. Ability to integrate Spring with external libraries limitations Configuration class cannot be final -Configuration class methods cannot be final -All Beans have to be listed, for big applications
+12.    	What does the @Configuration and @Bean annotations do?
+Annotating a class with the @Configuration indicates that the class can be used by the Spring IoC container as a source of bean definitions. The @Bean annotation tells Spring that a method annotated with @Bean will return an object that should be registered as a bean in the Spring application context.
+13.    	What is @Value used for?
+@Value is a Java annotation that is used at the field or method/constructor parameter level, and it indicates a default value for the affected argument. used for injecting values into configuration variables
+14.    	List some stereotype annotations. What are the differences between these?
+refers to annotations used for beans that the IoC should manage
+                         	- 4 main types
+                                       	- @Component: standard, managed bean. Other annotations include this annotation implicitely
+                                       	- @Service: denotes a service
+                                       	- @Controller: denotes a controller, can also be used in conjunction to SpringWeb to handle HTTP requests/responses
+                                       	- @Repository: denotes a repository/dao, bean to retrieve data from a database can be used with SpringData
+Spring MVC
+1.      Explain the MVC architecture and how HTTP requests are processed in the architecture?
+Spring Web MVC framework provides Model-View-Controller (MVC) architecture. The MVC aims to separate the different aspects of the application like the input logic, and business logic.
+·  	The Model encapsulates the application data and in general they will consist of POJO.
+·  	The View is responsible for rendering the model data and in general it generates HTML output that the client's browser can interpret.
+·  	The Controller is responsible for processing user requests and building an appropriate model and passes it to the view for rendering
+2.     What is the role of the DispatcherServlet? What about the ViewResolver?
+The role of the Dispatcher Servlet is to handle all the HTTP requests and responses. Spring uses ViewResolver to translate the view names in @Controller to actual View
+·  	After receiving an HTTP request, DispatcherServlet consults the HandlerMapping to call the appropriate Controller.
+·  	The Controller takes the request and calls the appropriate service methods based on used GET or POST method. The service method will set model data based on defined business logic and returns view name to the DispatcherServlet.
+·  	The DispatcherServlet will take help from ViewResolver to pickup the defined view for the request.
+·  	Once view is finalized, The DispatcherServlet passes the model data to the view which is finally rendered on the browser.
+ 
+3.      How would you declare which HTTP requests you’d like a controller to process?
+The default handler is based on the @Controller and @RequestMapping annotations
+4.     What is the difference between @RequestMapping and @GetMapping?
+@GetMapping is placed on the method that will handle the http request. GetMapping we can apply only on method level
+@RequestMapping annotation we can apply on class level and as well as on method level
+5.     How to declare the data format your controller expects from requests or will create in responses?
+@Controllers have methods used to handle requests for a particular path/http method
+                         	- can return
+                                       	- data (ie: JSON)
+                                       	- views/static resource
+6. What annotation would you use to bypass the ViewResolver?
+You would use the @PathVariable annotation to inject parameters encoded in the url as method parameter.
+7. 	How would you extract query and path parameters from a request URL in your controller?
+- @PathVariable- is used to retrieve a variable from the url. @RequestParm- used to retrieve query params @ RequestBody-used to map a JSON object to a JavaObject implicitely to be used in the method
+8.       	What concerns is the controller layer supposed to handle vs the service layer?
+The Controller makes a number of requests to the Service layer. The controller handles the routing for our application
+9.  	How would you specify HTTP status codes to return from your controller?
+@ResponseStatus annotation to specify the desired status code.  The basic way of sending response status is to use ResponseEntity object, which is returned by a controller.
+10.  How do you handle exceptions thrown in your code from your controller? What happens if you don’t set up any exception handling?
+GlobalException Handling
+          	- allows to handle all exception occuring server side and returning relevant status codes within a single a class
+          	- annotate class with @ControllerAdvice
+          	- annotate methods with @ExceptionHandler(exceptionName.class)
+          	- specify status code using @ResponseStatus([status], reason)
+, it causes the program to crash. 
+11.    	How would you consume an external web service using Spring?
+You can use the methods available in the Rest Template class to consume the web services for all HTTP methods. Webclient is more recent and async. The reason why we may make a call from the backend is some api’s requires apl keys and we don’t want to expose that information on the frontend.
+11.  What are the advantages of using RestTemplate?
+It simplifies the interaction with HTTP servers and enforces RESTful systems
+(IF asked) Representational State Transfer (REST) is a software architecture style for building scalable web services for useability.
+ 
+Spring AOP
+1.                  What is “aspect-oriented programming”? Define an aspect.
+ A programming paradigm that aims to increase modularity by allowing the separation of cross-cutting concerns.
+An aspect is a class that implements enterprise application concerns that cut across multiple classes, such as transaction management, logging, profiling,
+2.                  Give an example of a cross-cutting concern you could use AOP to address
+A cross-cutting concern is a concern which is applicable throughout the application. Some examples logging, security, and data transfer are the concerns needed in almost every module of an application
+3.       	Define the following:
+          	a.       	Join point
+A point during the execution of a program, such as the execution of a method or the handling of an exception. - any code that can be modified by an advice/that can be advised
+          	b.       	Pointcut
+PointCut is a set of one or more JoinPoint where an advice should be executed. You can specify PointCuts using expressions or patterns
+          	c.       	Advice
+Advice is an action taken by an aspect at a particular join point. Different types of advice include “around,” “before” and “after” advice. 
+3.              What are the different types of advice? What is special about the @Around advice? How is the ProceedingJoinPoint used?
+Type of advices are -around, before, and  after @AfterReturning @AfterThrowing. @Around  is the most powerful kind of advice. Around advice can perform custom behavior both before and after the method invocation.
+4.                  Explain the pointcut expression syntax
+@Pointcut annotation: - expression to target specific joinpoints
+5.                  What is a proxy?
+Provide a surrogate or placeholder for another object to control access to it
+a proxy is used to add Caching behavior.
+ 
+Spring Data
+1.              What is Spring ORM and Spring Data?
+Spring-ORM is an umbrella module that covers many persistence technologies, namely JPA, JDO, Hibernate.
+ The advantage is  Less coding is required:
+Easy to test: Spring's IoC approach makes it easy to test the application.
+Better exception handling: Spring framework provides its own API for exception handling with ORM framework.
+Integrated transaction management: By the help of Spring framework, we can wrap our mapping code with an explicit template wrapper class or AOP style method interceptor.
+Spring Data is a Java specification for managing relational data in Java applications. It allows us to access and persist data between Java object/ class and relational database
+ 
+2.              What does @Transactional do?
+@Transactional- indicate that a method should be handled in the context of a Spring handled transaction
+   	- properties to be overridden           	
+                  	Isolation- specify the isolation level rollbackfor- specify when to rollback the transaction propagation- how nested transactions are handled
+@Transactional(propagation=Propagation.[value])
+                  	- REQUIRED
+                                	- executes in the current transaction or creates one if one doesn't exist
+                                	- default value (?)
+                  	- NESTED
+                                	- executes in the current transaction, separated by a savepoint
+                  	- REQUIRES_NEW
+                                	- creates a new transaction
+                                              	- commit/rollback independently from others
+                  	- MANDATORY
+                                	- must execute in an existing transaction otherwise throws an exception
+                  	- NEVER
+                                	- must execute non-transactionally otherwise throws an exception if a transaction is open
+                  	- SUPPORTED
+                                	- will execute in the scope of a transaction if there is one, otherwise runs non-transactionally
+                  	- NOT_SUPPORTED
+                                	- will execute non transactionally no matter what        	          	
+3.              What interfaces are available in Spring Data JPA?
+- Repository (I)
+                                	- CrudRepository (I)
+                                	- PagingAndSortingRepository(I)
+                                	- JpaRepository (I)
+4.       	What is the difference between JPARepository and CrudRepository?
+CrudRepository and JPA repository both are the interface of the spring data repository library. JPA provides some extra methods related to JPA. Crud Repository is the base interface and it acts as a marker interface. Crud Repository doesn't provide methods for implementing pagination and sorting.
+4.              What is the naming conventions for methods in Spring Data repositories?
+- @Repository
+                          	- extends JpaRepository<[EntityToBeManaged], [id]>
+              	- provide database credentials in Application.yml
+6.     	How are Spring repositories implemented by Spring at runtime?
+The Spring Data JPA framework inspect the contract, and automatically build the interface implementation under the covers for you.
+6.              What is @Query used for?
+JPA provides the required JPA code to execute the statement as a JPQL or native SQL query.
+@Query annotation allows for running native queries by setting the nativeQuery flag to true
+ 
+Spring Boot
+1.              How is Spring Boot different from legacy Spring applications? What does it mean that it is “opinionated”?
+Spring Boot provides embedded servers such as Tomcat and Jetty.  Spring Boot is built on top of the conventional spring framework, widely used to develop REST APIs
+Spring Boot is opinionated because it follows the opinionated default configuration that reduces developer efforts to configure the application
+2.              What does “convention over configuration” mean?
+- reduces the number of configuration by assuming common conventions like the web server running on port 8080
+3.     	What annotation would you use for Spring Boot apps? What does it do behind the scenes?
+-@ConfigurationIndicates- that a class declares one or more @Bean methods and may be processed by the Spring container
+                                            	- @EnableAutoConfiguration- it attempts to guess and configure beans that you are likely to need. 
+                                	        	- @ComponentScan without arguments tells Spring to scan the current package and all of its sub-packages
+ Runs - in the main method SpringApplication.run([application-name].class, args); - needs to be in the parent package/base package of the application
+3.              How does Boot’s autoconfiguration work?
+Spring Boot auto-configuration automatically configure a Spring application based on the dependencies present on the class path.
+It detects classes in the class path and auto-configuration mechanism will ensure to create and wires necessary beans for us.
+4.              What is the advantage of having an embedded Tomcat server?
+can just "run" the application. Isolation- isolation means that the applications are not dependent on a single Tomcat installation.
+ 
+5.              What is the significance of the Spring Boot starter POM?
+Starter POMs are a set of convenient dependency descriptors that you can include in your application. You get a one-stop-shop for all the Spring and related technology that you need in your application
+6.              What is the Spring Boot actuator? What information can it give you?
+- information about the application using certain endpoints. - metrics(state of app) -bean info - health checks - production-ready features of the application
+8.     	What files would you use to configure Spring Boot applications?
+You can use properties files, YAML files, environment variables, and command-line arguments to configure your application
+8. 	What is the benefit of using Spring Boot profiles?
+Spring Profiles provides an efficient way to bundle properties according to functionality. - Allows use to use different versions of beans in diffenrent environment example like dev proile for development and prod for production.
