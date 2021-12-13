@@ -1,0 +1,43 @@
+Group name: The B.A.D Boys
+Date: 12/13/21
+Brayden Whitlock, Alex Darvin,  Davey Agrinsoni
+
+Group to do list 
+ 1. Don't forget about portfolio on rev pro Due the 17th add P1 to portfolio
+ 2. create a dto for user and other if needed. (In order to hide data in front end).
+ 3. Update logging and make sure it works.
+ 4. Do Quiz before lunch 
+ 5. Interview practice 5 questions each. 
+	- focus on terminology. 
+ 6. Push a completed version of the study guide to group folder. 
+ 7. Do QC Survey 
+
+Brayden:
+What did you do yesterday?:
+ - setting up application.yml properly and enabling validation token 
+What will you work on today?:
+ - 
+Any blockers:
+ - none 
+
+Alex
+What did you do yesterday?:
+ - finish generating components configure environment files
+What will you work on today?:
+ - 
+Any blockers:
+ - none
+
+Davey
+What did you do yesterday?:
+ - helping set up validation 
+What will you work on today?:
+ - 
+Any blockers:
+ - none
+
+
+
+
+
+
