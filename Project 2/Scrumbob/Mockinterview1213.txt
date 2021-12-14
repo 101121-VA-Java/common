@@ -1,0 +1,68 @@
+Interviewer David Wysocki
+Interviewee Jeremy Steinhafel
+Writter Gerardo Barnett
+
+1. What is a spring Bean?
+Is any java entity that is managed by the Ioc Container. Their dependencies are also managed by Spring as well.
+2. What is Ioc?
+Responsible for instantiating the dependencies and providing them to our code.
+3. What is bean wiring?
+Establishing dependencies between spring beans.
+4. What is aspect oriented programming?
+Is the process of breaking down program logic into parts called concerns.
+
+Interviewer: Tricia
+Interviewee: David
+Scribe: Jeremy
+
+Question 1: What would be the benefit of Spring Boot Profiles
+Response 1: A predefined configuration. The development and production environments. Allow you to swap between a test environment and production environment without having to write separate programs. Allow you to use a test database. 
+
+Question 2: What is the @Value Annotation used for
+Response 2: Used to define a default value for an expression that you annotate above the method. Can only take strings in ${userID}.
+
+Question 3: What are the scopes of spring beans?
+Response 3: Singleton, prototype, global, request, session
+
+Question 4:What are the differences between bean factory and Application Context?
+Response 4: Bean factory is an older / lazy loader style of doing things. Only loads beans upon request. AC is the new way to do it and fetches all the beans. Only use bean factory if memory storage is critical.
+
+Question 5: What types of Dependency Injection does Spring support?
+Response 5: Constructor Level Injection, Field Injection, Setter Injection - Interface Injection is not supported by Spring.
+
+
+Interviewer: Jeremy Steinhafel
+Interviewee: Tricia Goodwin
+Scribe: David Wysocki (Due to file corruption error this information has been lost. Tricia did answer questions adequately)
+
+Question 1: What is the spring bean lifecycle?
+
+Question 2: What do the @Configuration and @Bean Annotations do?
+
+Question 3: What is the MVC Architetcture and how are HTTP Requests handled?
+
+Question 4: What is a join point?
+
+Question 5: What are the different types of advice?
+
+Interviewee: Gerardo
+Interviewer: Tricia
+Scribe: Jeremy
+
+
+Question 1: What are Spring Projects and Spring Modules?
+Answer 1: Spring Project - spring security, spring cloud, etc. 
+Spring models are the features within the spring framework.
+
+Question 2: What is dependency injection?
+Answer 2: Dependecy Injection is when the IoC container finds the correct dependency and injects it where required. 
+
+Question 3: What interfaces are available in Spring Data JPA?
+Answer 3: Crud repository, paging and sorting, repository, JPA repository
+
+Question 4: What is the difference between JPARepository and CrudRepository?
+Answer 4: JPA Repository extends paging and sorting which extends the crud repository. 
+
+Question 5: How does Boot’s autoconfiguration work?
+Answer 5: Spring Boot’s auto-configuration will configure the application based on the dependencies in the classpath.
+
