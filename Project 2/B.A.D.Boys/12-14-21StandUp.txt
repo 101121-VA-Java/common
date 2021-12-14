@@ -1,0 +1,45 @@
+Group name: The B.A.D Boys
+Date: 12/13/21
+Brayden Whitlock, Alex Darvin,  Davey Agrinsoni
+
+Group to do list 
+ 1. Don't forget about portfolio on rev pro Due the 17th add P1 to portfolio
+ 2. create a dto for user and other if needed. (In order to hide data in front end).
+ 3. Update logging and make sure it works.
+ 7. Do QC Survey 
+ 8. Figure out how to show our tables on the front end. 
+ 9. Use docker in our project.
+10. Find out how to display different pages with the same tag. 
+11. Make sure our many to many relationship is set up correctly (may need to split our many
+     to many table into two tables) check documentation for help. 
+12. Do some of the docker practice 
+
+Brayden:
+What did you do yesterday?:
+ - setting up application.yml properly and enabling validation token, helped set up front end login 
+What will you work on today?:
+ - docker practice, setting up many to many tables in front end. 
+Any blockers:
+ - none 
+
+Alex
+What did you do yesterday?:
+ - finish generating components configure environment files
+What will you work on today?:
+ - work on routing on the front end. 
+Any blockers:
+ - none
+
+Davey
+What did you do yesterday?:
+ - helping set up validation 
+What will you work on today?:
+ - docker practice, working on tables. 
+Any blockers:
+ - none
+
+
+
+
+
+
