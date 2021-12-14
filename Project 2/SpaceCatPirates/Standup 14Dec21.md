@@ -18,4 +18,4 @@
 ## Albert
 - Yesterday:  Auctioneer can create auction
 - Today:  Set up Swagger to abstract away controllers
-- Blockers: no
+- Blockers: no 
