@@ -1,0 +1,22 @@
+Daily Stand up- 12.14.21
+
+Hannah
+Yesterday: Worked on the login token in the backend.
+Today: Carried that login token through the front end to get a working auth and login system!
+Blockers: None.
+
+Jason
+Yesterday: Mostly finished back end for user-stats component.
+Today: Worked on component integration with the group. Working on wiring user-stats front end to the server.
+Blockers: None
+
+Kendrick
+Yesterday: Worked more on frontend. Research issues with nodeJs. Did QC
+Today: Resolve merging issues. Install updated version of Node. Added story point to dev branch.
+Blockers: None.
+
+
+Sam KC
+Yesterday:Worked on currency exchange, added backend to live server .
+Today: Worked on backend & frontend. 
+Blockers: None.
