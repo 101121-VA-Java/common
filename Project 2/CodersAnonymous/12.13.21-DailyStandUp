@@ -1,0 +1,20 @@
+Daily Stand up - 12.13.21
+
+Jason M
+This weekend: Completely finished price-banner component (front and back). Front-end for user-stats component 99% complete. Added ngElse clause to user-stats component to nest the log in and register components. 
+Today: Reviewed for QC. Recreated users_currencies table to have columns for id and amount. Populated data into users, users_currencies, and users tables. Working on back end for user-stats component.
+
+Hannah
+This weekend: Studied for QC, reviewed login components and looked into Spring Security
+Today: Completed the login token in the back end, struggled with carrying the component through Angular, set up my Revature Portfolio
+Blockers: none
+
+Kendrick
+Yesterday: Study for QC. Complete review guide. Worked on frontend.
+Today: Did QC Survey. Did QC. Worked on the backend and added a register.
+Blockers: None.
+
+Sam 
+Yesterday: Study for QC. Complete review guide. Worked on frontend & Backend .
+Today: Worked on currency exchange, added backend to live server .
+Blockers: None.
