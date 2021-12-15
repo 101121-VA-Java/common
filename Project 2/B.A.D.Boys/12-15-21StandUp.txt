@@ -1,0 +1,43 @@
+Group name: The B.A.D Boys
+Date: 12/13/21
+Brayden Whitlock, Alex Darvin,  Davey Agrinsoni
+
+Group to do list 
+ 1. Don't forget about portfolio on rev pro Due the 17th add P1 to portfolio
+ 2. Figure out how to show our tables on the front end. 
+ 3. Use docker in our project.
+ 4. Find out how to display different pages with the same tag. 
+ 5. Make sure our many to many relationship is set up correctly (may need to split our many
+     to many table into two tables) check documentation and Kevins example for help. 
+ 6. Set up correct branching structure to follow DevOps
+ 7. Set up Jenkins for our project.
+
+Brayden:
+What did you do yesterday?:
+ - docker practice, worked on setting up basic html pages for the front end. 
+What will you work on today?:
+ - Jenkins set up. Refactor tables to only use the fruityvice table  
+Any blockers:
+ - none 
+
+Alex
+What did you do yesterday?:
+ -  work on routing on the front end. 
+What will you work on today?:
+ - set up Jenkins. More routing redirecting ingredients to ingredient form and smoothie to smoothie form. 
+Any blockers:
+ - none
+
+Davey
+What did you do yesterday?:
+ - docker practice, fixed redirect, worked on tables. Looked into authgard.  
+What will you work on today?:
+ - set up Jenkins. Implement authguard to display different pages in the same tag. 
+Any blockers:
+ - none
+
+
+
+
+
+
