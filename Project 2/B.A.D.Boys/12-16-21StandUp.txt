@@ -1,0 +1,42 @@
+Group name: The B.A.D Boys
+Date: 12/16/21
+Brayden Whitlock, Alex Darvin,  Davey Agrinsoni
+
+Group to do list 
+ 1. Don't forget about portfolio on rev pro Due the 17th add P1 to portfolio
+ 2. Figure out how to show more of our tables on the front end. 
+ 5. Make sure our many to many relationship is set up correctly (may need to split our many
+     to many table into two tables) check documentation and Kevins example for help. 
+ 6. Make sure to check out SOAP for our project. 
+ 7. Find out how to select new pictures to save in our project both for smoothie and profile 
+ 8. Set up sonarcloud 
+ 9. Set up S3. Check out notes in week 5 Friday for more help make sure it is connecting to the AWS
+10. Configure files to push to prod with an ng build 
+11. Prepare a little something for the group presentation tomorrow.
+12. Make sure to finish within 5 days. 
+
+Brayden:
+What did you do yesterday?:
+ - Jenkins set up. Set up changing nav bar. also set up authorization for front end. Refactor tables to only use the fruityvice table.
+What will you work on today?:
+ - Set up sonarcloud. Set up S3.  Make sure our many to many relationship is set up correctly (may need to split our many to many table into two tables) check documentation and Kevins example for help. 
+Any blockers:
+ - none 
+
+Alex
+What did you do yesterday?:
+ -  set up Jenkins. More routing redirecting ingredients to ingredient form and smoothie to smoothie form. 
+What will you work on today?:
+ - Set up S3. Move functionality of admin and user dash to nav bar. 
+Any blockers:
+ - none
+
+Davey
+What did you do yesterday?:
+ - set up Jenkins. Implement auth-guard to display different pages in the same tag. Set up controller service and repo for ingredient. 
+What will you work on today?:
+ -  make the repo work for ingredient. Finish up back end. Set up saving pictures from a file. 
+Any blockers:
+ - none
+
+
