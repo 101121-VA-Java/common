@@ -1,0 +1,51 @@
+Group name: The B.A.D Boys
+Date: 12/16/21
+Brayden Whitlock, Alex Darvin,  Davey Agrinsoni
+
+Group to do list 
+ 1. Don't forget about portfolio on rev pro Due the 17th add P1 to portfolio
+ 2. Figure out how to show our tables on the front end. 
+ 4. Find out how to display different pages with the same tag. 
+ 5. Make sure our many to many relationship is set up correctly (may need to split our many
+     to many table into two tables) check documentation and Kevins example for help. 
+ 6. Find out if we need to add anything to the smoothies, user and ingredient objects in order to add 
+	pictures.
+ 7. Figure out how to display ingredients with an ngFor.
+ 8. Figure out how to make a smoothie by clicking on a bunch of ingredients.
+ 9. Make a list that saves the amount of ingredients that we will use. Or find some other way to do 
+	it
+10. Find out how to add Admin to the prod environment.  
+11. Potentially use components to split up our pages so that we can reuse functionality in other 
+	places.
+12. Do mock interviews on java and SQL.
+
+Brayden:
+What did you do yesterday?:
+ - Sonarcloud set up. Refactor tables to only use the fruityvice table.
+What will you work on today?:
+ -   Figure out how to display ingredients with an ngFor. Figure out how to make a smoothie
+	 by clicking on a bunch of ingredients.
+Any blockers:
+ - none 
+
+Alex
+What did you do yesterday?:
+ -  set up Sonarcloud. More routing redirecting ingredients to ingredient form and smoothie to smoothie form.
+What will you work on today?:
+ -  Remaking navbar to include user and admin functionality. Enable user profile to use the user api.  
+Any blockers:
+ - none
+
+Davey
+What did you do yesterday?:
+ - set up Sonarcloud. Got post to work for a new ingredient. 
+What will you work on today?:
+ - start posting new data to the new ingredients table. Display fruits and new ingredients onto the screen. 
+Any blockers:
+ - none
+
+
+
+
+
+
