@@ -1,0 +1,68 @@
+12/17/21
+
+Interviewer: Jason
+Interviewee: Kendrick
+Scribe: Hannah
+Q1: Name 3 constructors in Java.
+Var args, no args, constructor that takes in parameters
+
+Q2: What is the difference between collection and collections?
+Collections is a class and collection is an interface
+
+Q3: What is DDL?
+DDL is data definition language, these are your CRUD statements
+
+Q4: What is the difference between a query and a transaction?
+A query searches your database and pulls information from tables. Select, from, where are all query. You want a statement to run as a transaction. Durability, Isolation, ACID! Automaticity, consistency (if there is a trigger, it should not affect the transaction). The difference between the two is that the transaction runs secure and the query searches the database for information. 
+
+Interviewer: Kendrick
+Interviewee: Sam
+Scribe: Hannah
+Q1:What is short circuiting?
+Short circuiting is when you use === instead of ==, if the first condition is met, it won’t check for the 2nd condition.
+
+(The or… if the 1st condition is met, it won’t go to the second)
+
+Q2:  What is abstraction?
+Abstraction is the process of hiding the implementation from the user. An example of this would be the DAO layer where you define the inputs and outputs and don’t have to write the implementation.
+
+Q3: Explain what the order by and group by clauses do.
+Order by orders the query based on the column, for example the id (ordering least to highest) and group by groups the result based on multiple parameters. For example, you can group by a certain color.
+
+Q4: What is a candidate key?
+Candidate keys are used on junction tables and consists of two different foreign keys.
+
+Interviewer: Sam
+Interviewee: Hannah
+Scribe: Jason
+Q1: What is the base class of all exceptions, and what interface do they all implement?
+Throwable is the interface they implement. Don’t know what the base class is. 
+
+Q2: What are the implicit modifiers for interface variables/methods?
+I think public static.
+
+Q3: What is a cascade delete?
+If a record is deleted, any other records relying on that record will also be deleted.
+
+Q4: Explain the concept of relational integrity.
+Relational integrity would be tables that have a strong or valid relationship to one another. I’m assuming you can’t point to another table without the proper foreign key.
+
+Interviewer:
+Interviewee:
+Scribe:
+Q1:If 2 interfaces have default methods and you implement both, what happens?
+
+Answer: You can not implement more than one interface. You can not implement them directly. The child takes the lowest one in the chain. 
+ 
+Q2: How would you go on about creating a thread?
+You will take an instance of a tread the way u do a normal an object. From there the thread will have a life cycle. It can go in a state once it is started. It goes into a runnable phase. It can go into the run or block phase. The tread will not get destroyed 
+Thread threadname = new thread();
+threadname.start()
+Q3: Can you explain the difference between WHERE and HAVING?
+
+Where will return any instance that matches a condition. 
+Where will return say you want to match a certain column value. Where column name = certain value.
+Having just returns any rows that have a non null value, for that column.
+
+Q4: Can you explain the different isolation levels in transactions?
+

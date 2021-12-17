@@ -1,0 +1,20 @@
+Daily Standup 12/17/21
+Sam 
+Yesterday: Finished with styling as a team. Worked on my portfolio.
+Today: Setting up Pipeline with the team. Working on restricting access to basic users.
+Blockers: none
+
+Hannah
+Yesterday: Fixed minor bugs with login system and logout
+Today: Hoping to look into auth0 as a stretch goal
+Blockers: none
+
+Jason
+Yesterday: Worked on integration and styling with the team. Touched up create user to automatically give them a $50k balance on creation.
+Today: Working on deployment pipeline with group. Looking at using routing or component refresh to manage transition from login to user stats view.
+
+Kendrick
+Yesterday: Worked on user information with team. Styling with the team. Finished portfolio
+Today:  Add styling to frontend userInfo and add more styling. Study. Help with pipline
+Blockers: none
+
