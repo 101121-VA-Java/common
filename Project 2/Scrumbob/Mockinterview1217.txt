@@ -1,0 +1,86 @@
+Interviewer: David Wysocki
+Interviewee: Jeremy Steinhafel
+Scribe: Gerardo Barnett
+
+Question 1: What is Deadlock?
+Response: Describes where one or two threads become locked
+
+Question 2: What are the ACID principles?
+Response: Atomicity makes sure it is the smallest unit possible, consistency data is in a consistent state, isolation each transaction happens alone by itself, durability after a transaction it's donde, it changes to done or undone. 
+
+Question 3: What is a SQL Injection?
+Response: A malicious way to insert values into a database like changing values to  certain table, delete or alter tables, etc
+
+Question 4: How would you setup a primary key that automatically increments with every INSERT Statement?
+Response: Use the keyword serial
+
+Question 5: When do you use extends or implements keywords?
+Response: extends is for an classes, implements is for a interfaces
+
+
+
+Interviewer: Tricia Goodwin
+Interviewee: Gerardo Barnett
+Scribe: Jeremy Steinhafel
+
+Question 1: What is JRE / JDK / JVM?
+Response 1: JDK - Java Development Kit - provides tools to develop Java, JRE - Java Runtime Environment - part of the JDK that provides resources, JVM - Java Virtual Machine - can run java anywhre
+
+Question 2: What is the default Maven build lifecycle?
+Response 2: Validate, Compile, Test, Package, Verify, Install, Deploy
+
+Question 3: What is a Marker interface?
+Response 3: Interface with no methods or constants, run-time information about objects
+
+Question 4: What is the difference between a scalar function and an aggregte function?
+Response 4: Aggregate function operates on multiple fields, while scalar does a single record independent
+
+Question 5: What is a cascade delete?
+Response 5: Delete Cascade is when a reference row is deleted in a child table and then the parent table portion is deleted.
+
+
+Interviewer: Jeremy Steinhafel
+Interviewee: David Wysocki
+Scribe: Tricia Goodwin
+
+
+Question 1: What are the 5 sublanguages of SQL? Which commands correspond to them?
+Response 1:  DDL, DML, DQL, then there's transactionsal, yeah, TCL, there's also one that does rollback, actually thats TCL, I think I'm missing one with D, Yeah, DCL.
+
+Question 2: Explain what the ORDER BY and GROUP BY clauses do
+Response 2: Order by can do like order by ascending or descending values, group by is another way to order it by a column. Group rows that have the same value in rows.
+
+Question 3: What is a candidate key?
+Response 3: A candidate key, if i am not mistaken is a key that can potentially be used as a primary or foreign key. The exact same thing as a primary key.
+
+Question 4: What is the difference between Statement and PreparedStatement?
+Response 4: So a prepared statement is one that you prepare in  the backend, you are structuring the statement in the backend to send to the database.
+Statements work the same way but you do not use them any time that you have frontend input as that makes it open to SQL injection.
+
+Question 5: What does it mean to serialize / deserialize an object in Java?
+Response 5: So when it comes to seriralizing and deserializing you are marking its position. Serializing data is preparing it for transfer,
+you serialize it to prepare it for transfer and deserialize it when you receive it.
+
+Interviewee: Tricia Goodwin
+Interviewer: Gerardo Barnett
+Scribe: David Wysocki
+
+
+
+Question 1: What is OOP
+Response 1: OOP is Object oriented programming, its a style of programming dealing with objects and relationships with objects.
+
+Question 2: what are the four pillars of OOP and descibe each one
+Response 2: Encapsulation involves keeping data within objects private you do this by setting objects private and use setters/getters
+Inheritance is when a child inherits methods and classes from the parents
+Polymorphism is allowing a method to have multiple forms
+ABstraction involves hiding away boilerplate code, lets us utilize frameworks
+
+Question 3: Explain to me the scopes of a variable
+Response 3: Class scope only accessible within a class, method scopes in methods, block scopes for for loops, global available everywhere.
+
+Question 4: Tell me the difference between a class and an object
+Response 4: An object is an instance of a class, created from a constructor. Class creates instances of objects.
+
+Question 5: What's an interface
+Response 5: Can contain methods or not, can contain metadeta for the program. Has a method declaration but not implementation. 
