@@ -1,0 +1,23 @@
+Daily Standup 12/20/21
+
+
+
+Jason
+This weekend: Worked on P2. Found and corrected a bug where XMR was being double-added to the total and net gains. Studied for QC. 
+Today: Studied for QC. Took QC. Learned about MicroServices Architecture. Work more on P2.
+Blockers: None.
+
+Sam 
+Yesterday: Setting up Pipeline with the team. Working on restricting access to basic users.
+Today: Working on validating inputs, setting up websocket for chatroom.
+Blockers: none
+
+Hannah
+This weekend: Looked into recaptcha, studied for QC on Java and SQL topics
+Today: Study for QC, implement recaptcha so button will be disabled until recaptcha is added
+Blockers: none
+
+Kendrick
+Yesterday: Did study guide. studied
+Today:  Went over to MSA. QC. Going to review topics and work on concepts. 
+Blockers: None.
