@@ -1,0 +1,47 @@
+Group name: The B.A.D Boys
+Date: 12/22/21
+Brayden Whitlock, Alex Darvin,  Davey Agrinsoni
+
+Group to do list 
+ 1. Figure out how to make a smoothie.
+ 2. Find out how to add Admin and other stuff to the prod environment.  
+ 3. Add a url string to user so that the new user can choose from a list of predetermined profile 
+	pics. (Potentially use an api to get a bunch of random profile picks)
+ 4. Set up a way for Admin to update a User profile to Admin. 
+ 5. Test making a new ingredient.
+ 6. Test making a new smoothie. 
+ 7. Test showing saved smoothies for Both user and admin. 
+ 8. Test other functionality. 
+ 9. Fix nav-bar make sure everything has a correct redirect path. 
+10. Create homepage 
+11. Fix styling. 
+12. Show completed project to Kevin. 
+
+
+Brayden:
+What did you do yesterday?:
+ - figure out how to make a table to get ingredients to make a recipe that can be used to create a smoothie.
+What will you work on today?:
+ - Figure out how to make a smoothie and show its nutritional values. Get the saved smoothes to show up get the urls to create pictures for the smoothies. 
+Any blockers:
+ - none 
+
+Alex
+What did you do yesterday?:
+ - Remaking nav-bar to include user and admin functionality. Work on updating user profile. user profile.  
+What will you work on today?:
+ - Make the change user to admin functionality. Style homepage. 
+Any blockers:
+ - none
+
+Davey
+What did you do yesterday?:
+ - Fixing ingredient form and setting up smoothie form. Make a put map for user. 
+What will you work on today?:
+ - Finalize smoothie form and get it to show up in the saved smoothie list. 
+Any blockers:
+ - none 
+
+
+
+
