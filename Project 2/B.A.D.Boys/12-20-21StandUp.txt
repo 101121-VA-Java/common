@@ -1,0 +1,53 @@
+Group name: The B.A.D Boys
+Date: 12/20/21
+Brayden Whitlock, Alex Darvin,  Davey Agrinsoni
+
+Group to do list 
+ 1. Figure out how to show our tables on the front end. 
+ 2. Find out how to display different pages with the same tag. 
+ 3. Find out if we need to add anything to the smoothies, user and ingredient objects in order to add 
+	pictures.
+ 4. Figure out how to display ingredients with an ngFor.
+ 5. Figure out how to make a smoothie by clicking on a bunch of ingredients.
+ 6. Make a list that saves the amount of ingredients that we will use. Or find some other way to do 
+	it
+ 7. Find out how to add Admin to the prod environment.  
+ 8. Potentially use components to split up our pages so that we can reuse functionality in other 
+	places.
+ 9. QC after lunch 
+10. Add a url string to user so that the new user can choose from a list of predetermined profile 
+	pics. (Potentially use an api to get a bunch of random profile picks)
+11. Fix the problem with our many to many tables between smoothie and ingredients. 
+12. Potentially integrate spring cloud. If a micro service in necessary.
+13. Write a paragraph about BlenderBuddies (include what it will do and nothing else)
+14. Add user profile
+15. Update user profile. 
+
+
+
+Brayden:
+What did you do yesterday?:
+ - Figure out how to display ingredients with an ngFor. 
+What will you work on today?:
+ -   Fix the problem with our many to many tables between smoothie and ingredients. 
+	Figure out how to make a smoothie by clicking on a bunch of ingredients.
+Any blockers:
+ - none 
+
+Alex
+What did you do yesterday?:
+ - worked on enabling user profile to use the user api.
+What will you work on today?:
+ -  Remaking navbar to include user and admin functionality. Add user profile and update
+	user profile. 
+Any blockers:
+ - none
+
+Davey
+What did you do yesterday?:
+ - Start posting new data to the new ingredients table. Integrated rest template into 
+	ingredients controller. Display fruits and new ingredients onto the screen.
+What will you work on today?:
+ -  finish smoothie controller layer. Start working on front end implementation. 
+Any blockers:
+ - fixing recursion error. 

@@ -40,6 +40,6 @@ Davey
 What did you do yesterday?:
  - set up Sonarcloud. Got post to work for a new ingredient. 
 What will you work on today?:
- - start posting new data to the new ingredients table. Display fruits and new ingredients onto the screen. 
+ - start posting new data to the new ingredients table. Display fruits and new ingredients onto the screen.  
 Any blockers:
  - none

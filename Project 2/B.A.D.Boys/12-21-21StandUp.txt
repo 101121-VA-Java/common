@@ -1,0 +1,44 @@
+Group name: The B.A.D Boys
+Date: 12/21/21
+Brayden Whitlock, Alex Darvin,  Davey Agrinsoni
+
+Group to do list 
+ 1. Find out how to display different pages with the same tag. 
+ 2. Figure out how to make a smoothie by clicking on a bunch of ingredients.
+ 3. Make a list that saves the amount of ingredients that we will use. Or find some other way to do 
+	it...
+ 4. Find out how to add Admin and other stuff to the prod environment.  
+ 5. Potentially use components to split up our pages so that we can reuse functionality in other 
+	places.
+ 6. Add a url string to user so that the new user can choose from a list of predetermined profile 
+	pics. (Potentially use an api to get a bunch of random profile picks)
+ 7. View user profile
+ 8. Update user profile. 
+ 9. Test making a new ingredient. 
+10. Fix navbar
+11. Create homepage 
+12. 
+
+Brayden:
+What did you do yesterday?:
+ - Fix the problem with our many to many tables between smoothie and ingredients. 
+What will you work on today?:
+ - Figure out how to make a smoothie by clicking on a bunch of ingredients.
+Any blockers:
+ - none 
+
+Alex
+What did you do yesterday?:
+ - worked on enabling user profile to use the user api. Wrote a paragraph on the project. Can see user profile. 
+What will you work on today?:
+ - Remaking nav-bar to include user and admin functionality.  Work on updating user profile. 
+Any blockers:
+ - none
+
+Davey
+What did you do yesterday?:
+ - finish smoothie controller layer. Start working on front end implementation. Set up view for ingredients. 
+What will you work on today?:
+ - fixing ingredient form and setting up smoothie form. Make a put map for user. 
+Any blockers:
+ - figure out how to get a new ingredient to be made with numbers. 
