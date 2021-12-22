@@ -1,0 +1,21 @@
+Daily Standup 12/21/21
+
+Kendrick
+Yesterday: Study for QC. Worked on an update function. Review notes
+Today:  Went over to MSA. Gateway Service. Worked on a bug in the register feature, and worked on the update feature issues with the team. Review notes.
+Blockers: None.
+
+Sam 
+Yesterday: Working on validating inputs, setting up websocket for chatroom.
+Today:  Finished with the implementation of chat feature. 
+Blockers: None.
+
+Jason
+Yesterday: Worked on getting JUnit testing incorporated into the project. 
+Today: Incorporated JUnit and Log4J into the project. Worked with group on finishing the user update info function.
+Blockers: None.
+
+Hannah
+Yesterday: Looked at reCaptcha using their google API
+Today: Tried linking that to the login button, created the powerpoint to present, wrote the product readme
+Blockers: none
